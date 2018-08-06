@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LwbUtils-master.iml" filepath="$PROJECT_DIR$/LwbUtils-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/magicindicator/magicindicator.iml" filepath="$PROJECT_DIR$/magicindicator/magicindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myUtil/myUtil.iml" filepath="$PROJECT_DIR$/myUtil/myUtil.iml" />
+    </modules>
+  </component>
+</project>

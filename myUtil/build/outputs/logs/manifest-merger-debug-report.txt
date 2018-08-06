@@ -1,0 +1,293 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:2:1-129:12
+	package
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:6:5-84
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:6:22-81
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:7:5-66
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:7:22-63
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:10:5-69
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:10:22-66
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:17:22-77
+application
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:19:5-127:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] C:\Users\admin\.android\build-cache\af77629c8f88a0e09d307476f42bb0703c23440d\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.0.1] C:\Users\admin\.android\build-cache\7495a80f77d2bcaa51ef6e45a27771271dd20a5c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.0.1] C:\Users\admin\.android\build-cache\9039b67896cef4723e611d44f29805df0f4d0d2a\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\admin\.android\build-cache\c71e23cc9799150cb61c5dcfd46128d93a3a3222\output\AndroidManifest.xml:22:5-20
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5] C:\Users\admin\.android\build-cache\60d2325bb08b6b38c2926320b9025ea8248fd9c9\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5] C:\Users\admin\.android\build-cache\848761f8e841e66be5bc6717e430b5c5411b7cf4\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] C:\Users\admin\.android\build-cache\665a5a99401635b65b803bc8001e71009c9faed4\output\AndroidManifest.xml:11:5-47
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\admin\.android\build-cache\cbbc22c6bf7c7cd4eab25f6538a655919ac6bc02\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\admin\.android\build-cache\b38794e30c6fa19910f813ea067d632ea24dc839\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\admin\.android\build-cache\9cde51a2a92322a8c087ebc105fe7beb842e345f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\admin\.android\build-cache\dc3a308db36b13bef42876c8cc33d924841fcb94\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\admin\.android\build-cache\0229317c2cc58e2fc75f6bcac42f35f144ec4b38\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\admin\.android\build-cache\efb3c643cce6ecbfa378aff67b7a8299545f1ce2\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\admin\.android\build-cache\cde2f1874bce258f455f5a60b76827b8eef658c7\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\admin\.android\build-cache\c8fd401dc692e15dbd7cb8b5326032e57b534384\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\admin\.android\build-cache\97369276be9e7f4f375c73887f0bd018551fe32e\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:23:9-40
+	android:supportsRtl
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:24:9-35
+	android:allowBackup
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:22:9-43
+	android:theme
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:25:9-40
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:20:9-45
+activity#demo.lwb.com.myutils.mvp.demo.DemoActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:26:9-30:72
+	android:screenOrientation
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:29:13-49
+	android:launchMode
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:28:13-42
+	android:windowSoftInputMode
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:30:13-60
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:27:13-50
+activity#demo.lwb.com.myutils.mvp.demo.PublicFragmentActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:31:9-37:47
+	android:screenOrientation
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:34:13-51
+	android:launchMode
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:35:13-44
+	android:configChanges
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:33:13-74
+	android:theme
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:37:13-44
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:32:13-60
+activity#demo.lwb.com.myutils.mvp.demo.SplashActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:39:9-47:20
+	android:screenOrientation
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:42:13-49
+	android:launchMode
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:41:13-42
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:40:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:43:13-46:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:45:27-74
+service#demo.lwb.com.myutils.service.SocketService
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:49:9-58
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:49:18-55
+service#demo.lwb.com.myutils.service.MessengerService
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:50:9-52:41
+	android:process
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:52:13-38
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:51:13-53
+service#demo.lwb.com.myutils.service.BookManagerService
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:53:9-55:41
+	android:process
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:55:13-38
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:54:13-55
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:57:9-65:20
+	android:authorities
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:59:13-68
+	android:grantUriPermissions
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:61:13-47
+	android:exported
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:58:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:62:13-64:53
+	android:resource
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:64:17-50
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:63:17-67
+meta-data#UMENG_APPKEY
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:67:9-69:56
+	android:value
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:69:13-53
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:68:13-40
+meta-data#UMENG_CHANNEL
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:70:9-72:54
+	android:value
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:72:13-51
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:71:13-41
+service#demo.lwb.com.myutils.service.FileDownService
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:74:9-77:39
+	android:enabled
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:76:13-35
+	android:exported
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:77:13-36
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:75:13-52
+activity#com.qq.e.ads.ADActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:81:9-131
+	android:configChanges
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:81:58-128
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:81:19-57
+meta-data#com.tencent.rdm.uuid
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:82:9-84:68
+	android:value
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:84:13-65
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:83:13-48
+service#com.qq.e.comm.DownloadService
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:87:9-89:40
+	android:exported
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:89:13-37
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:88:13-57
+activity#demo.lwb.com.myutils.viewpageindicator.ScrollableTabExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:95:9-97:54
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:97:13-51
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:96:13-75
+activity#demo.lwb.com.myutils.viewpageindicator.FixedTabExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:99:9-101:49
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:101:13-46
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:100:13-70
+activity#demo.lwb.com.myutils.viewpageindicator.DynamicTabExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:103:9-105:51
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:105:13-48
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:104:13-72
+activity#demo.lwb.com.myutils.viewpageindicator.NoTabOnlyIndicatorExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:107:9-109:61
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:109:13-58
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:108:13-80
+activity#demo.lwb.com.myutils.viewpageindicator.FragmentContainerExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:111:9-113:68
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:113:13-65
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:112:13-79
+activity#demo.lwb.com.myutils.viewpageindicator.BadgeTabExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:115:9-117:59
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:117:13-56
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:116:13-70
+activity#demo.lwb.com.myutils.viewpageindicator.CustomNavigatorExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:119:9-121:56
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:121:13-53
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:120:13-77
+activity#demo.lwb.com.myutils.viewpageindicator.LoadCustomLayoutExampleActivity
+ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:123:9-125:62
+	android:label
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:125:13-59
+	android:name
+		ADDED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml:124:13-78
+uses-sdk
+INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\admin\.android\build-cache\52f0ce5355480204c31b87f8fc74a507f498da86\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] C:\Users\admin\.android\build-cache\af77629c8f88a0e09d307476f42bb0703c23440d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\admin\.android\build-cache\c79a1bb8b66816428207168ff83e19ef3e1429c9\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:design:25.0.1] C:\Users\admin\.android\build-cache\7495a80f77d2bcaa51ef6e45a27771271dd20a5c\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\admin\.android\build-cache\9f77ddeffe1e48d25d6611ad5b01913eead685ba\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.0.1] C:\Users\admin\.android\build-cache\9039b67896cef4723e611d44f29805df0f4d0d2a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.0.1] C:\Users\admin\.android\build-cache\c71e23cc9799150cb61c5dcfd46128d93a3a3222\output\AndroidManifest.xml:20:5-43
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5] C:\Users\admin\.android\build-cache\60d2325bb08b6b38c2926320b9025ea8248fd9c9\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.0.5] C:\Users\admin\.android\build-cache\848761f8e841e66be5bc6717e430b5c5411b7cf4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:2.0.4] C:\Users\admin\.android\build-cache\665a5a99401635b65b803bc8001e71009c9faed4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [LwbUtils-master:magicindicator:unspecified] C:\Users\admin\Desktop\LwbUtils-master\magicindicator\build\intermediates\bundles\default\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.0.1] C:\Users\admin\.android\build-cache\cbbc22c6bf7c7cd4eab25f6538a655919ac6bc02\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\admin\.android\build-cache\b38794e30c6fa19910f813ea067d632ea24dc839\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\admin\.android\build-cache\9cde51a2a92322a8c087ebc105fe7beb842e345f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\admin\.android\build-cache\dc3a308db36b13bef42876c8cc33d924841fcb94\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\admin\.android\build-cache\0229317c2cc58e2fc75f6bcac42f35f144ec4b38\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\admin\.android\build-cache\efb3c643cce6ecbfa378aff67b7a8299545f1ce2\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.0.1] C:\Users\admin\.android\build-cache\cde2f1874bce258f455f5a60b76827b8eef658c7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.1] C:\Users\admin\.android\build-cache\c8fd401dc692e15dbd7cb8b5326032e57b534384\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\admin\.android\build-cache\97369276be9e7f4f375c73887f0bd018551fe32e\output\AndroidManifest.xml:21:5-23:58
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] C:\Users\admin\.android\build-cache\eaf8a57a94faf2f1a98be7a67b397ed108430cdd\output\AndroidManifest.xml:19:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.1] C:\Users\admin\.android\build-cache\7495a80f77d2bcaa51ef6e45a27771271dd20a5c\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\admin\Desktop\LwbUtils-master\myUtil\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\admin\.android\build-cache\9f77ddeffe1e48d25d6611ad5b01913eead685ba\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\admin\.android\build-cache\b38794e30c6fa19910f813ea067d632ea24dc839\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\admin\.android\build-cache\9cde51a2a92322a8c087ebc105fe7beb842e345f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\admin\.android\build-cache\dc3a308db36b13bef42876c8cc33d924841fcb94\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\admin\.android\build-cache\0229317c2cc58e2fc75f6bcac42f35f144ec4b38\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\admin\.android\build-cache\efb3c643cce6ecbfa378aff67b7a8299545f1ce2\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\admin\.android\build-cache\97369276be9e7f4f375c73887f0bd018551fe32e\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\admin\.android\build-cache\9f77ddeffe1e48d25d6611ad5b01913eead685ba\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:25.3.0] C:\Users\admin\.android\build-cache\9f77ddeffe1e48d25d6611ad5b01913eead685ba\output\AndroidManifest.xml:23:9-47

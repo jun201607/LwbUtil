@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+android {
+    compileSdkVersion 25
+     buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "demo.lwb.com.myutils"
+        minSdkVersion 18
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true //突破应用方法数65535的一个限制
+        manifestPlaceholders = [UMENG_CHANNEL_VALUE: "umeng"] //默认名称
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    greendao {
+        //版本号，升级时可配置
+        schemaVersion 1
+        daoPackage 'demo.lwb.com.myutils.gen'
+        targetGenDir 'src/main/java'
+    }
+    signingConfigs {
+        release {
+            storeFile file('D:/XXX.jks')
+            storePassword 'xxxxxxxxx'
+            keyAlias 'xxxxxxx'
+            keyPassword 'xxxxxxxxx'
+        }
+    }
+    buildTypes {
+        release {
+//            signingConfig signingConfigs.release
+            minifyEnabled false     //混淆
+            zipAlignEnabled true  //zipAlign优化
+            shrinkResources true  //移除无用的资源文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable true
+        }
+        debug {
+//            signingConfig signingConfigs.release
+            debuggable true
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/universal-image-loader-1.9.4.jar')
+    compile files('libs/fastjson-1.1.39.jar')
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta5'
+    compile 'org.jetbrains:annotations-java5:15.0'
+    compile 'com.android.support:support-annotations:25.0.1'
+    compile 'com.android.support:support-v4:25.3.0'
+    //greendao
+    compile 'org.greenrobot:greendao:3.2.0'
+    testCompile 'junit:junit:4.12'
+    compile('io.socket:socket.io-client:1.0.0') {
+        // excluding org.json which is provided by Android
+        exclude group: 'org.json', module: 'json'
+    }
+    compile 'com.android.support:recyclerview-v7:25.3.0'
+    //butterknife
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    //eventbus
+    compile 'org.greenrobot:eventbus:3.1.1'
+    //okhttp3
+    compile 'com.squareup.okhttp3:okhttp:3.10.0'
+    //appcompat
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    //UI
+    compile 'com.android.support:design:25.0.1'
+    //卡片式布局
+    compile 'com.android.support:cardview-v7:25.0.1'
+    //下拉刷新上啦加载
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5'
+    //没有使用特殊Header，可以不加这行
+    //BottomNavigationBar底部导航栏
+    compile 'com.ashokvarma.android:bottom-navigation-bar:2.0.4'
+    compile files('libs/GDTUnionSDK.4.17.568.min.jar')
+    compile project(':magicindicator')
+    compile files('libs/rebound-core.jar')
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile 'io.reactivex.rxjava2:rxjava:2.0.2'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.2'
+
+}

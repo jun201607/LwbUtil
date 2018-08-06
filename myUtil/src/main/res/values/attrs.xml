@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textColor" format="color"/>
+    <attr name="text" format="string"/>
+    <attr name="textSize" format="dimension"/>
+    <!--MyView-->
+    <declare-styleable name="CostomView">
+        <!-- name:属性名   format: 属性类型 -->
+        <attr name="bg" format="color|reference" />
+        <attr name="radius" format="integer|reference" />
+    </declare-styleable>
+
+    <!--动画MatchTextView-->
+    <declare-styleable name="MatchTextView">
+        <attr name="textColor"/>
+        <attr name="text"/>
+        <attr name="textSize"/>
+    </declare-styleable>
+    <!--简单的标签控件LabelView-->
+    <declare-styleable name="LabelTextView">
+        <attr name="textColor"/>
+        <attr name="text"/>
+        <attr name="backgroundColor" format="color"/>
+
+        <attr name="numColor" format="color"/>
+
+        <attr name="num" format="string"/>
+
+        <attr name="numSize" format="dimension"/>
+        <attr name="textSize"/>
+
+        <attr name="labelTopPadding" format="dimension"/>
+        <attr name="labelCenterPadding" format="dimension"/>
+        <attr name="labelBottomPadding" format="dimension"/>
+        <attr name="numStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+
+        <attr name="textStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+
+        <attr name="direction">
+            <enum name="leftTop" value="-45"/>
+            <enum name="rightTop" value="45"/>
+        </attr>
+    </declare-styleable>
+</resources>

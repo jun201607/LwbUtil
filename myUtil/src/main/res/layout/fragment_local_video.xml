@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_local_tip"
+        style="@style/wrap_wrap"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:text="@string/no_fin_local_video"/>
+    <LinearLayout
+        android:id="@+id/ll_local_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green_btn"
+            android:text="加载中..."/>
+    </LinearLayout>
+    <include layout="@layout/include_refresh"/>
+</RelativeLayout>

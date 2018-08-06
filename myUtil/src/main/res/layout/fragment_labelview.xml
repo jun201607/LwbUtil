@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <demo.lwb.com.myutils.wight.LabelView
+            app:num="01"
+            app:text="Top"
+            app:textSize="10sp"
+            app:numSize="20sp"
+            app:numStyle="bold"
+            app:labelTopPadding="6dp"
+            app:backgroundColor="#ff483a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <demo.lwb.com.myutils.wight.LabelView
+            android:layout_marginTop="@dimen/space_line"
+            app:num="02"
+            app:text="Top"
+            app:numSize="14sp"
+            app:textSize="9sp"
+            android:layout_margin="@dimen/space_line"
+            app:backgroundColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <demo.lwb.com.myutils.wight.LabelView
+            android:layout_marginTop="@dimen/space_line"
+            app:num="9:00"
+            app:text="早场"
+            app:numSize="14sp"
+            app:textSize="9sp"
+            app:numStyle="normal"
+            app:labelTopPadding="15dp"
+            app:labelCenterPadding="15dp"
+            app:direction="leftTop"
+            app:backgroundColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <demo.lwb.com.myutils.wight.LabelView
+            app:num="20:00"
+            app:text="晚场"
+            app:numStyle="italic"
+            app:numSize="14sp"
+            app:textSize="9sp"
+            app:direction="leftTop"
+            app:labelTopPadding="15dp"
+            app:labelCenterPadding="5dp"
+            app:labelBottomPadding="10dp"
+            app:backgroundColor="@color/colorPrimaryDark"
+            android:layout_marginTop="@dimen/space_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

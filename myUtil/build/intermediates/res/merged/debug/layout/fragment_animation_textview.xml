@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:match="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <demo.lwb.com.myutils.wight.MatchView.MatchTextView
+        android:id="@+id/tv_MatchTextView"
+        match:text="aaa"
+        match:textSize="@dimen/standard_title"
+        match:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <demo.lwb.com.myutils.wight.MatchView.MatchButton
+        android:id="@+id/tv_MatchButton"
+        match:text="Cancle"
+        match:textSize="@dimen/standard_work"
+        android:layout_marginTop="20dp"
+        match:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/tv_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:padding="@dimen/space_line2"
+            android:text="@string/show"/>
+        <Button
+            android:id="@+id/tv_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_line"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:padding="@dimen/space_line2"
+            android:text="@string/hint"/>
+    </LinearLayout>
+
+</LinearLayout>

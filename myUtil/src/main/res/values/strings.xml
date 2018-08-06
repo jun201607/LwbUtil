@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World!</string>
+    <string name="appName">常用工具类</string>
+    <string name="page_return">返回</string>
+    <string name="remind">提示</string>
+    <string name="update">更新</string>
+    <string name="logging">正在登录，请稍侯……</string>
+    <string name="loading">正在加载，请稍后...</string>
+    <string name="get_failed">获取失败，请检查网络后重试</string>
+    <string name="get_succeed">获取成功</string>
+    <string name="adding">正在添加，请稍后...</string>
+    <string name="add_failed">添加失败，请检查网络后重试</string>
+    <string name="add_succeed">添加成功</string>
+    <string name="saving">正在保存，请稍后...</string>
+    <string name="save_failed">保存失败，请检查网络后重试</string>
+    <string name="save_succeed">保存成功</string>
+    <string name="deleting">正在删除，请稍后...</string>
+    <string name="delete_failed">删除失败，请检查网络后重试</string>
+    <string name="delete_succeed">删除成功</string>
+    <string name="changing">正在修改，请稍后...</string>
+    <string name="change_failed">修改失败，请检查网络后重试</string>
+    <string name="change_succeed">修改成功</string>
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="function_will_coming_soon">这个功能即将推出^_^</string>
+    <string name="net_error">网络异常，请稍后重试</string>
+    <string name="no_more">没有更多了</string>
+    <string name="no_sdcard">请插入SD卡</string>
+    <string name="openning">正在开启，请稍后...</string>
+    <string name="open_failed">开启失败，请检查网络后重试</string>
+    <string name="open_succeed">开启成功</string>
+    <string name="closing">正在关闭，请稍后...</string>
+    <string name="close_failed">关闭失败，请检查网络后重试</string>
+    <string name="close_succeed">关闭成功</string>
+    <string name="sending">正在发送，请稍后...</string>
+    <string name="send_failed">发送失败，请检查网络后重试</string>
+    <string name="send_succeed">发送成功</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在刷新</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开加载更多</string>
+    <string name="xlistview_footer_hint_loading">正在加载更多...</string>
+    <string name="xlistview_footer_hint_complete">已加载完全部</string>
+    <string name="showLoadprogress">展示加载进度条</string>
+    <string name="hideLoadprogress">隐藏加载进度</string>
+    <string name="openNewActitity">启动新Activity方法</string>
+    <string name="showToast">快捷显示short toast方法</string>
+    <string name="title_activity_util">UtilActivity</string>
+    <string name="callphone">打电话</string>
+    <string name="sendMessages">发送信息，多号码</string>
+    <string name="sendMessage">发送信息，单个号码</string>
+    <string name="shareMessage">分享信息</string>
+    <string name="sendEmail">发送邮件</string>
+    <string name="openWeb">打开网站</string>
+    <string name="copyText">复制文字</string>
+    <string name="show_or_downProgress">显示与关闭进度弹窗方法</string>
+    <string name="picture_presentation">照片裁剪</string>
+    <string name="save_pictureSD">保存照片到SD卡上面</string>
+    <string name="check_network">检测网络是否可用</string>
+    <string name="check_sdcard_isAlive">检测Sdcard是否存在</string>
+    <string name="get_top_Activity">获取顶层Activity</string>
+    <string name="check_addresspermission">检查是否有位置权限</string>
+    <string name="check_permission">检查是否有权限</string>
+
+    <string name="other">其他</string>
+    <string name="home">首页</string>
+    <string name="Util">工具</string>
+    <string name="titleName">标题名</string>
+    <string name="clean">清空</string>
+    <string name="name">名字</string>
+
+    <string name="loading1">正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...</string>
+    <string name="show">显示</string>
+    <string name="hint">隐藏</string>
+    <string name="fin_new_Version">发现新版本</string>
+    <string name="is_update">是否马上更新</string>
+    <string name="OK">确定</string>
+    <string name="cancle">取消</string>
+    <string name="DrawerLayout">侧滑菜单</string>
+    <string name="subtiltle">小标题</string>
+    <string name="please_content">请输入内容</string>
+
+    <string name="click_to_skip">点击跳过</string>
+    <string name="gdtslogan">GDTslogan</string>
+
+    <!--指示器viewPageIndicator-->
+    <string name="app_name">magicindicatordemo</string>
+    <string name="scrollable_tab">scrollable tab</string>
+    <string name="fixed_tab">fixed tab</string>
+    <string name="dynamic_tab">dynamic tab</string>
+    <string name="no_tab_only_indicator">no tab, only indicator</string>
+    <string name="work_with_fragment_container">work with fragment container</string>
+    <string name="tab_with_badge_view">tab with badge view</string>
+    <string name="custom_navigator">custom navigator</string>
+    <string name="random_page">random page</string>
+    <string name="tab_with_custom_layout">load custom layout</string>
+    <string name="No_SupportOpenGL2">设备不支持OpenGL ES</string>
+    <string name="no_fin_local_video">没有发现本地视频</string>
+    <string name="delete">删除</string>
+</resources>

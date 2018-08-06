@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="@dimen/space_line">
+
+            <LinearLayout
+                android:id="@+id/img_twoAdapter_caption"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/a"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/img_twoAdapter_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/img_play" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_twoAdapter_name"
+                style="@style/wrap_wrap"
+                android:layout_marginLeft="@dimen/space_line"
+                android:layout_toRightOf="@+id/img_twoAdapter_caption"
+                android:text="name"
+                android:ellipsize="end"
+                android:lines="2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/standard_title" />
+
+            <TextView
+                android:id="@+id/tv_twoAdapter_time"
+                style="@style/wrap_wrap"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="@dimen/space_line"
+                android:layout_toRightOf="@+id/img_twoAdapter_caption"
+                android:text="name"
+                android:textColor="@color/gray_3"
+                android:textSize="@dimen/standard_title" />
+
+            <TextView
+                android:id="@+id/tv_twoAdapter_size"
+                style="@style/wrap_wrap"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="name"
+                android:textColor="@color/gray_3"
+                android:textSize="@dimen/standard_title" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_adapter_two"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/alpha_6"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_adapter_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_shape_alph"
+                android:textColor="@color/white_alpha_6"
+                android:textSize="@dimen/standard_title"
+                android:text="@string/delete"/>
+
+            <Button
+                android:id="@+id/btn_adapter_cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radius_shape_alph"
+                android:layout_marginLeft="@dimen/space_line"
+                android:textColor="@color/white_alpha_6"
+                android:textSize="@dimen/standard_title"
+                android:text="@string/cancle"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
