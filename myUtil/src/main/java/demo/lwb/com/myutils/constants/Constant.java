@@ -8,7 +8,10 @@ import demo.lwb.com.myutils.R;
 
 public class Constant {
 
-
+    /**
+     * 默认连接
+     */
+    public final static String Baidu="https://www.baidu.com/";
 
     /**
      *  intent

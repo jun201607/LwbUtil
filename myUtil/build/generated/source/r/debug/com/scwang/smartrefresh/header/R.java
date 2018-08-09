@@ -43,7 +43,7 @@ public final class R {
         public static final int wshShadowRadius = 0x7f0101d7;
     }
     public static final class string {
-        public static final int app_name = 0x7f080015;
+        public static final int app_name = 0x7f080026;
     }
     public static final class styleable {
         public static final int[] DropboxHeader = { 0x7f010123, 0x7f010124, 0x7f010125 };

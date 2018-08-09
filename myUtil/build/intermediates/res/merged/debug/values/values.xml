@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:ns1="http://schemas.android.com/tools">
     <string-array name="OtherUtils">
         <item>ButterKnife</item>
         <item>GreenDao</item>
@@ -59,6 +59,7 @@
         <item>层叠式卡片SwipeCard</item>
         <item>OpenGl三角形</item>
         <item>OpenGl矩形</item>
+        <item>网页WebView</item>
     </string-array>
     <attr format="reference" name="constraintSet"/>
     <attr format="reference" name="drawerArrowStyle"/>
@@ -303,6 +304,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="select_color">#2e2e32</color>
     <color name="silver">#c0c0c0</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
@@ -887,8 +889,11 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="agentweb_webview_id" type="id"/>
     <item name="home" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="mainframe_error_container_id" type="id"/>
+    <item name="mainframe_error_viewsub_id" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
@@ -896,6 +901,7 @@
     <item name="transition_scene_layoutid_cache" type="id"/>
     <item name="up" type="id"/>
     <item name="view_offset_helper" type="id"/>
+    <item name="web_parent_layout_id" type="id"/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="app_bar_elevation_anim_duration">150</integer>
@@ -941,6 +947,23 @@
     <string name="add_failed">添加失败，请检查网络后重试</string>
     <string name="add_succeed">添加成功</string>
     <string name="adding">正在添加，请稍后...</string>
+    <string name="agentweb_camera">Camera</string>
+    <string name="agentweb_cancel">Cancel</string>
+    <string name="agentweb_click_open">Tap to continue</string>
+    <string name="agentweb_coming_soon_download">Coming soon to download the file</string>
+    <string name="agentweb_current_downloading_progress">Downloading:%s</string>
+    <string name="agentweb_download">Download</string>
+    <string name="agentweb_download_fail">Download failed!</string>
+    <string name="agentweb_download_task_has_been_exist">The task already exists, do not repeat click to download!</string>
+    <string name="agentweb_file_chooser">Files</string>
+    <string name="agentweb_file_download">Download</string>
+    <string name="agentweb_honeycomblow">Wi-Fi disconnected. Continue the download via mobile data network?</string>
+    <string name="agentweb_leave">Go away</string>
+    <string name="agentweb_leave_app_and_go_other_page">leaving %s and opening another app?</string>
+    <string name="agentweb_loading">Loading ...</string>
+    <string name="agentweb_max_file_length_limit">The selected file can not be larger than %s MB</string>
+    <string name="agentweb_tips">Note</string>
+    <string name="agentweb_trickter">You have a new notice</string>
     <string name="appName">常用工具类</string>
     <string name="app_name">magicindicatordemo</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -998,6 +1021,7 @@
     <string name="page_return">返回</string>
     <string name="picture_presentation">照片裁剪</string>
     <string name="please_content">请输入内容</string>
+    <string name="please_put_web">请输入网址</string>
     <string name="pull_to_refresh_pull_label">下拉刷新…</string>
     <string name="pull_to_refresh_refreshing_label">正在载入…</string>
     <string name="pull_to_refresh_release_label">放开以刷新…</string>
@@ -1009,6 +1033,7 @@
     <string name="saving">正在保存，请稍后...</string>
     <string name="scrollable_tab">scrollable tab</string>
     <string name="search_menu_title">Search</string>
+    <string name="select">搜索</string>
     <string name="sendEmail">发送邮件</string>
     <string name="sendMessage">发送信息，单个号码</string>
     <string name="sendMessages">发送信息，多号码</string>
@@ -2580,6 +2605,9 @@
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
         <item name="passwordToggleDrawable">@drawable/design_ic_visibility</item>
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
+    </style>
+    <style name="actionActivity" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:statusBarColor" ns1:targetApi="lollipop">@android:color/transparent</item>
     </style>
     <style name="activity_page">
         <item name="android:splitMotionEvents">false</item>

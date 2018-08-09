@@ -33,6 +33,7 @@ import demo.lwb.com.myutils.mvp.fragment.SmartRefreshLayoutFragment;
 import demo.lwb.com.myutils.mvp.fragment.SwipeCardFragment;
 import demo.lwb.com.myutils.mvp.fragment.TitanicFragment;
 import demo.lwb.com.myutils.mvp.fragment.ToolbarFragment;
+import demo.lwb.com.myutils.mvp.fragment.Web_ViewFragment;
 
 
 /**
@@ -70,6 +71,7 @@ public class FramentManages
 	public final static String OpenGl_Square="OpenGl矩形";
 	public final static String Local_Video="本地视频";
 	public final static String Local_VideoDetail="视频播放";
+	public final static String WebView="网页WebView";
 
 	/**
 	 * 这个在Fragment中不能new出来,只能在Activity中new，每个Activity对应一个List_fragment来管理
@@ -132,6 +134,8 @@ public class FramentManages
 				return new Local_VideoFragment();
 			case FramentManages.Local_VideoDetail:
 				return new Local_VideoDetailFragment();
+			case FramentManages.WebView:
+				return new Web_ViewFragment();
 		}
 	}
 

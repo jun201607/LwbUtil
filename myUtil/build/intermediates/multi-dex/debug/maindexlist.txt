@@ -300,6 +300,7 @@ org/greenrobot/greendao/annotation/NotNull.class
 android/support/v4/widget/SearchViewCompat$OnQueryTextListenerCompat.class
 org/intellij/lang/annotations/JdkConstants$AdjustableOrientation.class
 android/support/v7/widget/GapWorker.class
+demo/lwb/com/myutils/mvp/fragment/Web_ViewFragment$AndroidtoJs.class
 android/support/v4/widget/ResourceCursorAdapter.class
 android/support/v4/widget/MaterialProgressDrawable$1.class
 android/support/design/widget/ViewUtils.class

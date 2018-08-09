@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\cbbc22c6bf7c7cd4eab25f6538a655919ac6bc02\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\anim\\fade.xml",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\anim\\fade.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\cbbc22c6bf7c7cd4eab25f6538a655919ac6bc02\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",

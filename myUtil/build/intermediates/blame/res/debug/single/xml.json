@@ -6,5 +6,9 @@
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\xml\\filepaths.xml",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\xml\\filepaths.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\xml\\web_files_paths.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\b4f26bf0a36fdd280b30cb9140e7dcebd62230ef\\output\\res\\xml\\web_files_paths.xml"
     }
 ]

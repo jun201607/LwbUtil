@@ -128,6 +128,26 @@
             android:name="demo.lwb.com.myutils.viewpageindicator.LoadCustomLayoutExampleActivity"
             android:label="@string/tab_with_custom_layout" />
         <!-- viewpage指示器 -->
+        <receiver android:name="com.just.agentweb.download.NotificationCancelReceiver" />
+
+        <provider
+            android:name="com.just.agentweb.AgentWebFileProvider"
+            android:authorities="demo.lwb.com.myutils.AgentWebFileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/web_files_paths" />
+        </provider>
+
+        <activity
+            android:name="com.just.agentweb.ActionActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:launchMode="standard"
+            android:theme="@style/actionActivity"
+            android:windowSoftInputMode="stateHidden|stateAlwaysHidden" >
+        </activity>
     </application>
 
 </manifest>
