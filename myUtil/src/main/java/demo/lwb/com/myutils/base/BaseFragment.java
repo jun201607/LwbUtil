@@ -25,6 +25,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.trello.rxlifecycle2.components.support.RxFragment;
+
 import java.util.ArrayList;
 
 import butterknife.ButterKnife;
@@ -43,7 +45,7 @@ import demo.lwb.com.myutils.mvp.presenter.HomeTab1Presenter;
  * @author Lemon
  * @use extends Base2Frament, 具体参考.DemoFragment
  */
-public abstract class BaseFragment extends Fragment implements IPopBackStackListener {
+public abstract class BaseFragment extends RxFragment implements IPopBackStackListener {
 	private static final String TAG = "BaseFrament";
 	private Bundle BackBundle;
 	/**

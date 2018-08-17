@@ -29,6 +29,9 @@ import android.view.View.OnTouchListener;
 import android.view.Window;
 import android.widget.Toast;
 
+import com.trello.rxlifecycle2.components.support.RxFragment;
+import com.trello.rxlifecycle2.components.support.RxFragmentActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,7 +48,7 @@ import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
  * @author Lemon
  * @use extends BaseFragmentActivity, 具体参考.DemoFragmentActivity
  */
-public abstract class BaseFragment1Activity extends FragmentActivity implements OnGestureListener, OnTouchListener,OnFinishListener {
+public abstract class BaseFragment1Activity extends RxFragmentActivity implements OnGestureListener, OnTouchListener,OnFinishListener {
 	private static final String TAG = "BaseFragmentActivity";
 	protected BasePresenter baseP;// P层 自己在强转
 	/**

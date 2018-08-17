@@ -344,3 +344,10 @@ public static java.lang.String TABLENAME;
 -keep class com.android.dingtalk.share.ddsharemodule.** { *; }
 -keepattributes Signature
 
+#==================AgentWeb============
+-keep class com.just.agentweb.** {
+    *;
+}
+-dontwarn com.just.agentweb.**
+-keepclassmembers class com.just.agentweb.sample.common.AndroidInterface{ *; }
+#==================AgentWeb============

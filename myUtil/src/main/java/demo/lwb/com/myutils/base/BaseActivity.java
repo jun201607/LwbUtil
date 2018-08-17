@@ -34,6 +34,9 @@ import android.view.View.OnTouchListener;
 import android.view.Window;
 import android.widget.Toast;
 
+
+import com.trello.rxlifecycle2.components.RxActivity;
+
 import org.greenrobot.eventbus.EventBus;
 
 import demo.lwb.com.myutils.R;
@@ -48,7 +51,7 @@ import demo.lwb.com.myutils.manager.ThreadManager;
  * @use extends BaseActivity, 具体参考.DemoActivity
  * /滑动返回/显示与关闭进度弹窗方法/启动新Activity方法/快捷显示short toast方法/线程名列表/点击返回键事件/
  */
-public abstract class BaseActivity extends Activity implements OnGestureListener, OnTouchListener {
+public abstract class BaseActivity extends RxActivity implements OnGestureListener, OnTouchListener {
 	private static final String TAG = "BaseActivity";//用于打印日志（log）的类的标记
 
 	/**

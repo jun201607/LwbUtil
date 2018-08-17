@@ -1,14 +1,10 @@
 [
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\7495a80f77d2bcaa51ef6e45a27771271dd20a5c\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9b18de82dde62fce907f67e74496adebc5af3c6a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\7495a80f77d2bcaa51ef6e45a27771271dd20a5c\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\7495a80f77d2bcaa51ef6e45a27771271dd20a5c\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9b18de82dde62fce907f67e74496adebc5af3c6a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     }
 ]

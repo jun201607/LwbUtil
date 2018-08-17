@@ -52,6 +52,7 @@
         <item>层叠式卡片SwipeCard</item>
         <item>OpenGl三角形</item>
         <item>OpenGl矩形</item>
+        <item>网页WebView</item>
     </string-array>
     <!--其他类列表-->
     <string-array name="OtherUtils">
@@ -62,5 +63,7 @@
         <item>使用AIDL跨进程通信</item>
         <item>使用ContentProvider跨进程通信</item>
         <item>本地视频</item>
+        <item>AgentWeb</item>
+        <item>Retrofit2Rxjava封装</item>
     </string-array>
 </resources>

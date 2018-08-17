@@ -102,4 +102,6 @@
     <string name="No_SupportOpenGL2">设备不支持OpenGL ES</string>
     <string name="no_fin_local_video">没有发现本地视频</string>
     <string name="delete">删除</string>
+    <string name="select">搜索</string>
+    <string name="please_put_web">请输入网址</string>
 </resources>

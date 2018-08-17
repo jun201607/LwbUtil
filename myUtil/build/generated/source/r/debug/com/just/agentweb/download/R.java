@@ -8,46 +8,46 @@ package com.just.agentweb.download;
 
 public final class R {
     public static final class color {
-        public static final int black = 0x7f0d0011;
-        public static final int select_color = 0x7f0d0076;
-        public static final int white = 0x7f0d0082;
+        public static final int black = 0x7f0e0011;
+        public static final int select_color = 0x7f0e0076;
+        public static final int white = 0x7f0e0082;
     }
     public static final class drawable {
-        public static final int ic_cancel_transparent_2dp = 0x7f020082;
-        public static final int ic_file_download_black_24dp = 0x7f020083;
+        public static final int ic_cancel_transparent_2dp = 0x7f020086;
+        public static final int ic_file_download_black_24dp = 0x7f020087;
     }
     public static final class id {
-        public static final int agentweb_webview_id = 0x7f0f0004;
-        public static final int mainframe_error_container_id = 0x7f0f0007;
-        public static final int mainframe_error_viewsub_id = 0x7f0f0008;
-        public static final int web_parent_layout_id = 0x7f0f0010;
+        public static final int agentweb_webview_id = 0x7f100004;
+        public static final int mainframe_error_container_id = 0x7f100007;
+        public static final int mainframe_error_viewsub_id = 0x7f100008;
+        public static final int web_parent_layout_id = 0x7f100012;
     }
     public static final class layout {
-        public static final int agentweb_error_page = 0x7f040027;
+        public static final int agentweb_error_page = 0x7f040028;
     }
     public static final class string {
-        public static final int agentweb_camera = 0x7f080015;
-        public static final int agentweb_cancel = 0x7f080016;
-        public static final int agentweb_click_open = 0x7f080017;
-        public static final int agentweb_coming_soon_download = 0x7f080018;
-        public static final int agentweb_current_downloading_progress = 0x7f080019;
-        public static final int agentweb_download = 0x7f08001a;
-        public static final int agentweb_download_fail = 0x7f08001b;
-        public static final int agentweb_download_task_has_been_exist = 0x7f08001c;
-        public static final int agentweb_file_chooser = 0x7f08001d;
-        public static final int agentweb_file_download = 0x7f08001e;
-        public static final int agentweb_honeycomblow = 0x7f08001f;
-        public static final int agentweb_leave = 0x7f080020;
-        public static final int agentweb_leave_app_and_go_other_page = 0x7f080021;
-        public static final int agentweb_loading = 0x7f080022;
-        public static final int agentweb_max_file_length_limit = 0x7f080023;
-        public static final int agentweb_tips = 0x7f080024;
-        public static final int agentweb_trickter = 0x7f080025;
+        public static final int agentweb_camera = 0x7f090015;
+        public static final int agentweb_cancel = 0x7f090016;
+        public static final int agentweb_click_open = 0x7f090017;
+        public static final int agentweb_coming_soon_download = 0x7f090018;
+        public static final int agentweb_current_downloading_progress = 0x7f090019;
+        public static final int agentweb_download = 0x7f09001a;
+        public static final int agentweb_download_fail = 0x7f09001b;
+        public static final int agentweb_download_task_has_been_exist = 0x7f09001c;
+        public static final int agentweb_file_chooser = 0x7f09001d;
+        public static final int agentweb_file_download = 0x7f09001e;
+        public static final int agentweb_honeycomblow = 0x7f09001f;
+        public static final int agentweb_leave = 0x7f090020;
+        public static final int agentweb_leave_app_and_go_other_page = 0x7f090021;
+        public static final int agentweb_loading = 0x7f090022;
+        public static final int agentweb_max_file_length_limit = 0x7f090023;
+        public static final int agentweb_tips = 0x7f090024;
+        public static final int agentweb_trickter = 0x7f090025;
     }
     public static final class style {
-        public static final int actionActivity = 0x7f0a017d;
+        public static final int actionActivity = 0x7f0b0181;
     }
     public static final class xml {
-        public static final int web_files_paths = 0x7f060002;
+        public static final int web_files_paths = 0x7f070002;
     }
 }

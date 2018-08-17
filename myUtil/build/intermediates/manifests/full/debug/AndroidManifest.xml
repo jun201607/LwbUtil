@@ -21,10 +21,12 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 如果需要精确定位的话请加上此权限 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="25.3.0" /> <!-- 友盟分享 -->
+        android:value="25.3.1" /> <!-- 友盟分享 -->
     <application
         android:name="demo.lwb.com.myutils.base.BaseApplication"
         android:allowBackup="true"
@@ -40,6 +42,7 @@
         <activity
             android:name="demo.lwb.com.myutils.mvp.demo.PublicFragmentActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"
             android:label="PublicFragmentActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"

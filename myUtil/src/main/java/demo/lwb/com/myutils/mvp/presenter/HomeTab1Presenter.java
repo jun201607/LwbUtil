@@ -110,6 +110,15 @@ public class HomeTab1Presenter extends BasePresenter{
                    case FramentManages.Local_Video:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.Local_Video, bundle));
                        break;
+                   case FramentManages.WebView:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.WebView, bundle));
+                       break;
+                   case FramentManages.AgentWeb:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.AgentWeb, bundle));
+                       break;
+                   case FramentManages.Retrofit2Rxjava:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.Retrofit2Rxjava, bundle));
+                       break;
                    default:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.UtilsDetail, bundle));
                        break;

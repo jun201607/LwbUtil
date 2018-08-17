@@ -1,110 +1,82 @@
 [
     {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_tint_default.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_tint_edittext.xml"
     },
     {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\abc_search_url_text.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\f77cd988b1712db5bee448b38c8bf3ac3292f63a\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\373d4b988d8e535c2a682193a4982ffec4f3657d\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "D:\\GithubUtil\\LwbUtils\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\BlueSky\\.android\\build-cache\\86b13f4cafdcb254a74a1118005dc36e9f2dd4e2\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\color\\switch_thumb_material_light.xml"
     }
 ]

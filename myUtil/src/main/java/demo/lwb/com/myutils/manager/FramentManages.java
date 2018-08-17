@@ -10,6 +10,7 @@ import android.support.v4.app.FragmentTransaction;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.base.BaseFragmentActivity;
+import demo.lwb.com.myutils.mvp.fragment.AgentWebFragment;
 import demo.lwb.com.myutils.mvp.fragment.AidlFragment;
 import demo.lwb.com.myutils.mvp.fragment.AnimationTextViewFragment;
 import demo.lwb.com.myutils.mvp.fragment.BottomNavigationBarFragment;
@@ -29,6 +30,7 @@ import demo.lwb.com.myutils.mvp.fragment.MessengerFragment;
 import demo.lwb.com.myutils.mvp.fragment.MyFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_SquareFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_TriangleFragment;
+import demo.lwb.com.myutils.mvp.fragment.Retrofit2RxjavaFragment;
 import demo.lwb.com.myutils.mvp.fragment.SmartRefreshLayoutFragment;
 import demo.lwb.com.myutils.mvp.fragment.SwipeCardFragment;
 import demo.lwb.com.myutils.mvp.fragment.TitanicFragment;
@@ -72,6 +74,8 @@ public class FramentManages
 	public final static String Local_Video="本地视频";
 	public final static String Local_VideoDetail="视频播放";
 	public final static String WebView="网页WebView";
+	public final static String AgentWeb="AgentWeb";
+	public final static String Retrofit2Rxjava="Retrofit2Rxjava封装";
 
 	/**
 	 * 这个在Fragment中不能new出来,只能在Activity中new，每个Activity对应一个List_fragment来管理
@@ -136,6 +140,10 @@ public class FramentManages
 				return new Local_VideoDetailFragment();
 			case FramentManages.WebView:
 				return new Web_ViewFragment();
+			case FramentManages.AgentWeb:
+				return new AgentWebFragment();
+			case FramentManages.Retrofit2Rxjava:
+				return new Retrofit2RxjavaFragment();
 		}
 	}
 

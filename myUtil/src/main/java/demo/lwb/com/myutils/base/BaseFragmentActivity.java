@@ -23,6 +23,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.widget.Toast;
+
+import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 import butterknife.Unbinder;
@@ -39,7 +42,7 @@ import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
  * @author Lemon
  * @use extends BaseFragmentActivity, 具体参考.DemoFragmentActivity
  */
-public abstract class BaseFragmentActivity extends AppCompatActivity implements OnFinishListener {
+public abstract class BaseFragmentActivity extends RxAppCompatActivity implements OnFinishListener {
 	private static final String TAG = "BaseFragmentActivity";
 	protected BasePresenter baseP;// P层 自己在强转
 	/**

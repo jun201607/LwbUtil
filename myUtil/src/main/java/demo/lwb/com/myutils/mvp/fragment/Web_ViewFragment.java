@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.ConsoleMessage;
+import android.webkit.GeolocationPermissions;
 import android.webkit.JavascriptInterface;
 import android.webkit.JsPromptResult;
 import android.webkit.JsResult;
@@ -33,6 +34,7 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.Utils.AdvancedWebView;
+import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.constants.Constant;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
@@ -42,7 +44,7 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
     @BindView(R.id.et_webview_selset)
     EditText etWebviewSelset;
     @BindView(R.id.wv_webview)
-    AdvancedWebView wvWebview;
+    WebView wvWebview;
     @BindView(R.id.btn_click)
     Button btnClick;
 
@@ -63,13 +65,8 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
 
     @Override
     public void initView() {
-        wvWebview.setListener(getActivity(), this);
-        wvWebview.setGeolocationEnabled(false);
-        wvWebview.setMixedContentAllowed(true);
-        wvWebview.setCookiesEnabled(true);
-        wvWebview.setThirdPartyCookiesEnabled(true);
-        wvWebview.addHttpHeader("X-Requested-With", "");
-        wvWebview.loadUrl(Constant.Baidu);
+        initWebSetting();
+        wvWebview.loadUrl(Constant.Baidu1);
         //调用Android方法
         callAndroid();
         //调用js方法
@@ -130,49 +127,53 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
 
     }
 
-    private void initWebChromeClient() {
+//    private void initWebChromeClient() {
 //        wvWebview.setWebViewClient(new SafeWebChromeClient());
-    }
-
-    private void initWebClient() {
+//    }
+//
+//    private void initWebClient() {
 //        wvWebview.setWebViewClient(new SafeWebViewClient());
-    }
+//    }
 
     private void initWebSetting() {
-//        final String filesDir = getContext().getFilesDir().getPath();
-//        final String databaseDir = filesDir.substring(0, filesDir.lastIndexOf("/")) + DATABASES_SUB_FOLDER;
-//        WebSettings webSettings = wvWebview.getSettings();
-//        if (webSettings == null) return;
-//        // 支持 Js 使用
-//        webSettings.setJavaScriptEnabled(true);
-//        // 开启DOM缓存
-//        webSettings.setDomStorageEnabled(true);
-//        // 开启数据库缓存
-//        webSettings.setDatabaseEnabled(true);
-//        // 支持自动加载图片
-//        webSettings.setLoadsImagesAutomatically(true);
-//        // 设置 WebView 的缓存模式
-//        webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
-//        // 支持启用缓存模式
-//        webSettings.setAppCacheEnabled(true);
-//        // Android 私有缓存存储，如果你不调用setAppCachePath方法，WebView将不会产生这个目录
+        final String filesDir = getContext().getFilesDir().getPath();
+        final String databaseDir = filesDir.substring(0, filesDir.lastIndexOf("/")) + DATABASES_SUB_FOLDER;
+        WebSettings webSettings = wvWebview.getSettings();
+        if (webSettings == null) return;
+        // 支持 Js 使用
+        webSettings.setJavaScriptEnabled(true);
+        //启用地理定位
+        webSettings.setGeolocationEnabled(true);
+        //设置定位的数据库路径
+        webSettings.setGeolocationDatabasePath(databaseDir);
+        // 开启DOM缓存
+        webSettings.setDomStorageEnabled(true);
+        // 开启数据库缓存
+        webSettings.setDatabaseEnabled(true);
+        // 支持自动加载图片
+        webSettings.setLoadsImagesAutomatically(true);
+        // 设置 WebView 的缓存模式
+        webSettings.setCacheMode(WebSettings.LOAD_DEFAULT);
+        // 支持启用缓存模式
+        webSettings.setAppCacheEnabled(true);
+        // Android 私有缓存存储，如果你不调用setAppCachePath方法，WebView将不会产生这个目录
 //        webSettings.setAppCachePath(getCacheDir().getAbsolutePath());
-//        // 数据库路径
-//        if (Build.VERSION.SDK_INT < 19) {
-//            webSettings.setDatabasePath(databaseDir);
-//        }
-//        // 支持缩放
-//        webSettings.setSupportZoom(true);
-//        // 设置 UserAgent 属性
-//        webSettings.setUserAgentString("");
-//        // 允许加载本地 html 文件/false
-//        webSettings.setAllowFileAccess(true);
-//        // 允许通过 file url 加载的 Javascript 读取其他的本地文件,Android 4.1 之前默认是true，在 Android 4.1 及以后默认是false,也就是禁止
-//        webSettings.setAllowFileAccessFromFileURLs(false);
-//        // 允许通过 file url 加载的 Javascript 可以访问其他的源，包括其他的文件和 http，https 等其他的源，
-//        // Android 4.1 之前默认是true，在 Android 4.1 及以后默认是false,也就是禁止
-//        // 如果此设置是允许，则 setAllowFileAccessFromFileURLs 不起做用
-//        webSettings.setAllowUniversalAccessFromFileURLs(false);
+        // 数据库路径
+        if (Build.VERSION.SDK_INT < 19) {
+            webSettings.setDatabasePath(databaseDir);
+        }
+        // 支持缩放
+        webSettings.setSupportZoom(true);
+        // 设置 UserAgent 属性
+        webSettings.setUserAgentString("");
+        // 允许加载本地 html 文件/false
+        webSettings.setAllowFileAccess(true);
+        // 允许通过 file url 加载的 Javascript 读取其他的本地文件,Android 4.1 之前默认是true，在 Android 4.1 及以后默认是false,也就是禁止
+        webSettings.setAllowFileAccessFromFileURLs(false);
+        // 允许通过 file url 加载的 Javascript 可以访问其他的源，包括其他的文件和 http，https 等其他的源，
+        // Android 4.1 之前默认是true，在 Android 4.1 及以后默认是false,也就是禁止
+        // 如果此设置是允许，则 setAllowFileAccessFromFileURLs 不起做用
+        webSettings.setAllowUniversalAccessFromFileURLs(false);
     }
 
     private void initWebView() {
@@ -339,6 +340,7 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
          */
         @Override
         public boolean onConsoleMessage(ConsoleMessage consoleMessage) {
+            LogUtils.e(consoleMessage.toString());
             return super.onConsoleMessage(consoleMessage);
         }
         /**
@@ -353,6 +355,7 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
          */
         @Override
         public boolean onJsAlert(WebView view, String url, String message, JsResult result) {
+            LogUtils.e(message+"===="+result.toString());
             return super.onJsAlert(view, url, message, result);
         }
 
@@ -361,6 +364,7 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
          */
         @Override
         public boolean onJsConfirm(WebView view, String url, String message, JsResult result) {
+            LogUtils.e(message);
             return super.onJsConfirm(view, url, message, result);
         }
 
@@ -369,6 +373,7 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
          */
         @Override
         public boolean onJsPrompt(WebView view, String url, String message, String defaultValue, JsPromptResult result) {
+            LogUtils.e(message);
             // 根据协议的参数，判断是否是所需要的url(原理同方式2)
             // 一般根据scheme（协议格式） & authority（协议名）判断（前两个参数）
             //假定传入进来的 url = "js://webview?arg1=111&arg2=222"（同时也是约定好的需要拦截的）
@@ -409,6 +414,11 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
             super.onReceivedTitle(view, title);
         }
 
+        @Override
+        public void onGeolocationPermissionsShowPrompt(String origin, GeolocationPermissions.Callback callback) {
+            callback.invoke(origin, true, false);
+            super.onGeolocationPermissionsShowPrompt(origin, callback);
+        }
     }
 
 

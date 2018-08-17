@@ -12,6 +12,7 @@ public class Constant {
      * 默认连接
      */
     public final static String Baidu="https://www.baidu.com/";
+    public final static String Baidu1="https://www.baidu.com/";
 
     /**
      *  intent
