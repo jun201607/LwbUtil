@@ -68,8 +68,8 @@ public final class R {
     }
     public static final class string {
         public static final int app_name = 0x7f090026;
-        public static final int srl_component_falsify = 0x7f090027;
-        public static final int srl_content_empty = 0x7f090028;
+        public static final int srl_component_falsify = 0x7f09002b;
+        public static final int srl_content_empty = 0x7f09002c;
     }
     public static final class styleable {
         public static final int[] BallPulseFooter = { 0x7f010031, 0x7f0100df, 0x7f0100e0, 0x7f0100e1 };

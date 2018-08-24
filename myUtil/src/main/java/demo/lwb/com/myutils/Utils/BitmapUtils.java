@@ -15,8 +15,11 @@ import android.text.TextUtils;
 import android.view.View;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.lang.ref.WeakReference;
 
 /**
@@ -35,6 +38,7 @@ import java.lang.ref.WeakReference;
  * 11、根据资源id获取指定大小的Bitmap对象
  * 12、根据文件路径获取指定大小的Bitmap对象
  * 13、获取指定大小的Bitmap对象
+ * 14、将压缩的bitmap保存到SDCard卡临时文件夹，用于上传
  */
 public class BitmapUtils
 {
@@ -297,11 +301,12 @@ public class BitmapUtils
 		}
 		return ThumbnailUtils.extractThumbnail(bitmap, width, height);
 	}
+
 	/**
 	 * 计算所需图片的缩放比例
-	 * @param height    高度
-	 * @param width     宽度
-	 * @param options   options选项
+	 * @param height
+	 * @param width
+	 * @param options
 	 * @return
 	 */
 	private static int calculateSampleSize(int height, int width, BitmapFactory.Options options){
@@ -314,5 +319,30 @@ public class BitmapUtils
 		}else{
 			return heigthScale;
 		}
+	}
+
+	/**
+	 * 14、将压缩的bitmap保存到SDCard卡临时文件夹，用于上传
+	 * @param bit
+	 * @param scale 压缩大小为该控件大小的的N倍，主要用于放大后不失真
+	 * @return
+	 */
+	public static File saveMyBitmap(String path, String picName, String bit, int scale) {
+        FileOutputStream fOut = null;
+		File file=new File(path);
+		if (!file.exists()) {
+			file.mkdirs();
+		}
+		final File f = new File(bit, picName);
+        Bitmap bitmap = BitmapFactory.decodeFile(bit);
+        try {
+			fOut = new FileOutputStream(f);
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, fOut);
+			fOut.flush();
+			fOut.close();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		return f;
 	}
 }

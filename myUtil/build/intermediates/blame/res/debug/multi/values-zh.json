@@ -349,8 +349,84 @@
                     "startLine": 20,
                     "startColumn": 4,
                     "startOffset": 1110,
+                    "endColumn": 43,
+                    "endOffset": 1149
+                },
+                "from": {
+                    "file": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 98,
+                        "endColumn": 43,
+                        "endOffset": 137
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1154,
+                    "endColumn": 55,
+                    "endOffset": 1205
+                },
+                "from": {
+                    "file": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 142,
+                        "endColumn": 55,
+                        "endOffset": 193
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1210,
+                    "endColumn": 48,
+                    "endOffset": 1254
+                },
+                "from": {
+                    "file": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 198,
+                        "endColumn": 48,
+                        "endOffset": 242
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1259,
+                    "endColumn": 38,
+                    "endOffset": 1293
+                },
+                "from": {
+                    "file": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\values-zh\\values-zh.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 247,
+                        "endColumn": 38,
+                        "endOffset": 281
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1298,
                     "endColumn": 107,
-                    "endOffset": 1213
+                    "endOffset": 1401
                 },
                 "from": {
                     "file": "C:\\Users\\admin\\.android\\build-cache\\60d2325bb08b6b38c2926320b9025ea8248fd9c9\\output\\res\\values-zh\\values-zh.xml",
@@ -365,11 +441,11 @@
             },
             {
                 "to": {
-                    "startLine": 21,
+                    "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1218,
+                    "startOffset": 1406,
                     "endColumn": 91,
-                    "endOffset": 1305
+                    "endOffset": 1493
                 },
                 "from": {
                     "file": "C:\\Users\\admin\\.android\\build-cache\\60d2325bb08b6b38c2926320b9025ea8248fd9c9\\output\\res\\values-zh\\values-zh.xml",

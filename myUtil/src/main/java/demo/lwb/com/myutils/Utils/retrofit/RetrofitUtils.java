@@ -32,7 +32,7 @@ public class RetrofitUtils {
     /**
      * 初始化必要对象和参数
      */
-    public Retrofit getRetrofit() {
+    public Retrofit getRetrofit(String url) {
         // 初始化okhttp
         OkHttpClient client = new OkHttpClient().newBuilder()
                 .readTimeout(DEFAULT_TIME, TimeUnit.SECONDS)
@@ -44,19 +44,23 @@ public class RetrofitUtils {
         // 初始化Retrofit
        return  new Retrofit.Builder()
                 .client(client)
-                .baseUrl(Url.RetrofitUrl)
+                .baseUrl(url)
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
     }
 
-    //返回一个泛型类
-    public static  <T>T getService(Class<T> service){
-        return getInstance().getRetrofit().create(service);
-    }
+//    //返回一个泛型类
+//    public static  <T>T getService(Class<T> service){
+//        return getInstance().getRetrofit().create(service);
+//    }
 
 
     public static ApiService  getApiService(){
-        return getInstance().getRetrofit().create(ApiService.class);
+        return getInstance().getRetrofit(Url.Baidu).create(ApiService.class);
+    }
+
+    public static ApiService  getApiService1(){
+        return getInstance().getRetrofit(Url.RetrofitUrl).create(ApiService.class);
     }
 }

@@ -18,6 +18,10 @@
     <string name="agentweb_tips">提示</string>
     <string name="agentweb_trickter">您有一条新通知</string>
     <string name="app_name">智能刷新</string>
+    <string name="folder_all">所有照片</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="preview">预览</string>
     <string formatted="false" name="srl_component_falsify">%s 虚假区域\n代表运行时拖动的高度【%.1fdp】 \n而不会显示任何东西</string>
     <string name="srl_content_empty">SmartRefreshLayout中没有找到内容视图。您是否忘记在xml布局文件中添加？</string>
 </resources>

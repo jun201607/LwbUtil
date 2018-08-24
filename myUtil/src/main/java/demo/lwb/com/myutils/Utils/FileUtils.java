@@ -9,8 +9,14 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.RandomAccessFile;
+import java.nio.MappedByteBuffer;
+import java.nio.channels.FileChannel;
 import java.text.DecimalFormat;
 import java.util.UUID;
+
+import demo.lwb.com.myutils.Utils.retrofit.downFile.DownloadInfo;
+import okhttp3.ResponseBody;
 
 /**
  * TODO 对文件的操作工具类
@@ -27,6 +33,7 @@ import java.util.UUID;
  * 10、删除指定的文件
  * 11、删除指定的文件夹
  * 12、复制文件/文件夹 若要进行文件夹复制，请勿将目标文件夹置于源文件夹中
+ * 13、写入文件
  */
 public final class FileUtils
 {
@@ -343,6 +350,46 @@ public final class FileUtils
 				inputStream.close();
 				outputStream.close();
 			}
+		}
+	}
+
+
+	/**
+	 * 13、写入文件
+	 *
+	 * @param file
+	 * @param info
+	 * @throws IOException
+	 */
+	public static void writeCache(ResponseBody responseBody, File file, DownloadInfo info) throws IOException {
+		if (!file.getParentFile().exists())
+			file.getParentFile().mkdirs();
+		long allLength;
+		if (info.getContentLength() == 0) {
+			allLength = responseBody.contentLength();
+		} else {
+			allLength = info.getContentLength();
+		}
+
+		FileChannel channelOut = null;
+		RandomAccessFile randomAccessFile = null;
+		randomAccessFile = new RandomAccessFile(file, "rwd");
+		channelOut = randomAccessFile.getChannel();
+		MappedByteBuffer mappedBuffer = channelOut.map(FileChannel.MapMode.READ_WRITE,
+				info.getReadLength(), allLength - info.getReadLength());
+		byte[] buffer = new byte[1024 * 4];
+		int len;
+		int record = 0;
+		while ((len = responseBody.byteStream().read(buffer)) != -1) {
+			mappedBuffer.put(buffer, 0, len);
+			record += len;
+		}
+		responseBody.byteStream().close();
+		if (channelOut != null) {
+			channelOut.close();
+		}
+		if (randomAccessFile != null) {
+			randomAccessFile.close();
 		}
 	}
 }

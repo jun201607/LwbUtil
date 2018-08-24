@@ -37,6 +37,7 @@ import demo.lwb.com.myutils.Utils.AdvancedWebView;
 import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.constants.Constant;
+import demo.lwb.com.myutils.constants.Url;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
 
 public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Listener {
@@ -66,7 +67,7 @@ public class Web_ViewFragment extends BaseFragment implements AdvancedWebView.Li
     @Override
     public void initView() {
         initWebSetting();
-        wvWebview.loadUrl(Constant.Baidu1);
+        wvWebview.loadUrl(Url.Baidu);
         //调用Android方法
         callAndroid();
         //调用js方法

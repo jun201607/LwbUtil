@@ -13,8 +13,8 @@ public final class R {
         public static final int white = 0x7f0e0082;
     }
     public static final class drawable {
-        public static final int ic_cancel_transparent_2dp = 0x7f020086;
-        public static final int ic_file_download_black_24dp = 0x7f020087;
+        public static final int ic_cancel_transparent_2dp = 0x7f02008f;
+        public static final int ic_file_download_black_24dp = 0x7f020090;
     }
     public static final class id {
         public static final int agentweb_webview_id = 0x7f100004;
@@ -23,7 +23,7 @@ public final class R {
         public static final int web_parent_layout_id = 0x7f100012;
     }
     public static final class layout {
-        public static final int agentweb_error_page = 0x7f040028;
+        public static final int agentweb_error_page = 0x7f04002a;
     }
     public static final class string {
         public static final int agentweb_camera = 0x7f090015;

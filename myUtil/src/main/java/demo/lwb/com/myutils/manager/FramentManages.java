@@ -168,7 +168,7 @@ public class FramentManages
 		list_Frament.add(base);
 		fm.beginTransaction()
 				// 添加Frament
-				.add(viewId, base).addToBackStack(null)
+				.add(viewId, base,alias).addToBackStack(null)
 				// 提交
 				.commit();
 
@@ -196,6 +196,7 @@ public class FramentManages
 		{
 			return;
 		}
+
 		list_Frament.add(base);
 		if (bundle != null)
 		{
@@ -209,7 +210,7 @@ public class FramentManages
 					R.anim.push_right_in, R.anim.push_right_out);
 		}
 		// 添加Frament
-		bt.add(viewId, base)
+		bt.add(viewId, base,alias)
 				// 添加到后退栈中
 				.addToBackStack(null)
 				// 提交

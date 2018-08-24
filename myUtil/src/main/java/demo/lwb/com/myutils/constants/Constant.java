@@ -1,5 +1,7 @@
 package demo.lwb.com.myutils.constants;
 
+import android.os.Environment;
+
 import demo.lwb.com.myutils.R;
 
 /**
@@ -8,11 +10,6 @@ import demo.lwb.com.myutils.R;
 
 public class Constant {
 
-    /**
-     * 默认连接
-     */
-    public final static String Baidu="https://www.baidu.com/";
-    public final static String Baidu1="https://www.baidu.com/";
 
     /**
      *  intent
@@ -30,4 +27,13 @@ public class Constant {
     public static final String KEY = "image";
     public static int [] images = {R.mipmap.a,R.mipmap.b,
             R.mipmap.c,R.mipmap.d,R.mipmap.e};
+
+
+    /**
+     * RequestCode
+     */
+
+    public static final int Request_base = 100;
+
+    public static final int Request_Retrofit2Rxjava = 101;
 }

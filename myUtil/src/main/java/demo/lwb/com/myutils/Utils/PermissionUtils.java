@@ -68,7 +68,7 @@ public class PermissionUtils {
         boolean result = false;
         for (String permission : permissions) {
             result = checkPersmission(context, permission);
-            Log.e("PermissionUtils","result"+result);
+            LogUtils.e("result"+result);
         }
         return result;
     }
@@ -117,14 +117,14 @@ public class PermissionUtils {
             line = input.readLine();
             input.close();
         } catch (IOException ex) {
-            Log.e(TAG, "Unable to read sysprop " + propName, ex);
+            LogUtils.e("Unable to read sysprop " + propName);
             return null;
         } finally {
             if (input != null) {
                 try {
                     input.close();
                 } catch (IOException e) {
-                    Log.e(TAG, "Exception while closing InputStream", e);
+                    LogUtils.e("Exception while closing InputStream");
                 }
             }
         }

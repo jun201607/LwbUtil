@@ -24,6 +24,7 @@ import java.util.Map;
 import java.util.TreeSet;
 
 import demo.lwb.com.myutils.manager.AppManager;
+import demo.lwb.com.myutils.manager.FramentManages;
 
 /**
  * 全局异常捕获

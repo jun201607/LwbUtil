@@ -6,12 +6,9 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.LinearLayout;
-
-import com.nostra13.universalimageloader.utils.L;
 
 import demo.lwb.com.myutils.R;
-import demo.lwb.com.myutils.Utils.LogUtils;
+import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.base.BaseFragmentActivity;
 import demo.lwb.com.myutils.constants.Constant;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
@@ -80,5 +77,13 @@ public class PublicFragmentActivity extends BaseFragmentActivity {
         {
             this.finish();
         }
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        for (BaseFragment baseFragment:fragmentManager.getAllFrament()){
+            baseFragment.onActivityResult(requestCode,resultCode,data);
+        }
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }

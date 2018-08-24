@@ -19,7 +19,7 @@ public final class R {
         public static final int web_parent_layout_id = 0x7f100012;
     }
     public static final class layout {
-        public static final int agentweb_error_page = 0x7f040028;
+        public static final int agentweb_error_page = 0x7f04002a;
     }
     public static final class string {
         public static final int agentweb_camera = 0x7f090015;

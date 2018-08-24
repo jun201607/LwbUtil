@@ -5,19 +5,23 @@ package demo.lwb.com.myutils.Utils.retrofit;
 import demo.lwb.com.myutils.Utils.LogUtils;
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
+import retrofit2.Response;
 
 /**
  * 数据返回统一处理  https://www.jianshu.com/p/ff619fea7e22
  * @param <T>
  */
-public abstract class BaseObserver<T> implements Observer<Response<T>> {
+public abstract class BaseObserver<T> implements Observer<Response<BaseResponse<T>>> {
     @Override
-    public void onNext(Response<T> tResponse) {
-        LogUtils.e(tResponse.toString());
-        if(tResponse.getRes_code()==1){
-            onSuccess(tResponse.getDemo());
+    public void onNext(Response<BaseResponse<T>> tResponse) {
+        LogUtils.e("code:==="+tResponse.code());
+        LogUtils.e("errorBody===:"+tResponse.errorBody());
+        LogUtils.e("Body===:"+tResponse.body());
+        BaseResponse<T> body = tResponse.body();
+        if(body.getRes_code()==1){
+            onSuccess(body.getDemo());
         }else{
-            onFailure(new Exception(tResponse.getErr_msg()), tResponse.getErr_msg());
+            onFailure(new Exception(body.getErr_msg()), body.getErr_msg());
         }
     }
 

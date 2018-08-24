@@ -110,4 +110,7 @@ dependencies {
     compile 'com.trello.rxlifecycle2:rxlifecycle-components:2.1.0'
     compile 'com.alibaba:fastjson:1.1.59.android'//
     //    ========rxjava retrofit 请求框架==========
+
+    //图片选择
+    compile project(path: ':multi-image-selector')
 }

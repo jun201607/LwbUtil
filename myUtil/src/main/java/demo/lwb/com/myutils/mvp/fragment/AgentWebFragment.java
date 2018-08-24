@@ -1,19 +1,27 @@
 package demo.lwb.com.myutils.mvp.fragment;
 
+import android.Manifest;
+import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.v4.app.ActivityCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.GeolocationPermissions;
 import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.just.agentweb.AgentWeb;
 import com.just.agentweb.AgentWebConfig;
 import com.just.agentweb.DefaultWebClient;
+import com.just.agentweb.IAgentWebSettings;
 import com.just.agentweb.download.AgentWebDownloader;
 import com.just.agentweb.download.DownloadListenerAdapter;
 import com.just.agentweb.download.DownloadingService;
@@ -24,8 +32,10 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.Utils.LogUtils;
+import demo.lwb.com.myutils.Utils.PermissionUtils;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.constants.Constant;
+import demo.lwb.com.myutils.constants.Url;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
 
 public class AgentWebFragment extends BaseFragment {
@@ -35,7 +45,7 @@ public class AgentWebFragment extends BaseFragment {
     AgentWeb mAgentWeb;
     @BindView(R.id.btn_clear)
     Button btnClear;
-
+    private static final int RequestCode = 200;
     @Override
     public void setMiddleTitle() {
 
@@ -55,12 +65,18 @@ public class AgentWebFragment extends BaseFragment {
     public void initView() {
 
 
+        String[] permission = {Manifest.permission.CAMERA,Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_COARSE_LOCATION, Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                Manifest.permission.READ_EXTERNAL_STORAGE,};
+        if(!PermissionUtils.checkPermissionsGroup(getActivity(), permission)){
+            PermissionUtils.requestPermissions(getActivity(),permission,RequestCode);
+        }
+
         //传入Activity
         mAgentWeb = AgentWeb.with(this)
                 //传入AgentWeb 的父控件 ，如果父控件为 RelativeLayout ， 那么第二参数需要传入 RelativeLayout.LayoutParams
                 .setAgentWebParent(llAgentview, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT))
                 .useDefaultIndicator(-1, 3)// 使用默认进度条
-//                .setAgentWebWebSettings(getSettings())
                 .setWebViewClient(mWebViewClient)
                 .setWebChromeClient(mWebChromeClient)
 //                .setPermissionInterceptor(mPermissionInterceptor)
@@ -73,12 +89,13 @@ public class AgentWebFragment extends BaseFragment {
                 .interceptUnkownUrl()
                 .createAgentWeb()
                 .ready()
-                .go(Constant.Baidu1);
+                .go(Url.Baidu);
 
 
         //获取 WebView
         WebView webView = mAgentWeb.getWebCreator().getWebView();
     }
+
 
     private WebViewClient mWebViewClient = new WebViewClient() {
         @Override
@@ -90,6 +107,12 @@ public class AgentWebFragment extends BaseFragment {
         @Override
         public void onProgressChanged(WebView view, int newProgress) {
             //do you work
+        }
+
+        @Override
+        public void onGeolocationPermissionsShowPrompt(String origin, GeolocationPermissions.Callback callback) {
+            callback.invoke(origin,true,true);
+            super.onGeolocationPermissionsShowPrompt(origin, callback);
         }
     };
 
@@ -200,6 +223,27 @@ public class AgentWebFragment extends BaseFragment {
 
         public AndroidInterface(AgentWeb mAgentWeb, AgentWebFragment agentWebFragment) {
 
+        }
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == RequestCode) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+//                tvPermissionStatus.setTextColor(Color.GREEN);
+//                tvPermissionStatus.setText("相机权限已申请");
+            } else {
+                //用户勾选了不再询问
+                //提示用户手动打开权限
+                if (!ActivityCompat.shouldShowRequestPermissionRationale(getActivity(),Manifest.permission.ACCESS_COARSE_LOCATION)) {
+                    Toast.makeText(getActivity(), "定位功能已被禁止", Toast.LENGTH_SHORT).show();
+                }else if(!ActivityCompat.shouldShowRequestPermissionRationale(getActivity(),Manifest.permission.CAMERA)){
+                    Toast.makeText(getActivity(), "相机功能已被禁止", Toast.LENGTH_SHORT).show();
+                }else if(!ActivityCompat.shouldShowRequestPermissionRationale(getActivity(),Manifest.permission.WRITE_EXTERNAL_STORAGE)){
+                    Toast.makeText(getActivity(), "存储功能已被禁止", Toast.LENGTH_SHORT).show();
+                }
+            }
         }
     }
 }

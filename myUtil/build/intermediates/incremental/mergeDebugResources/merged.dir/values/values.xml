@@ -756,6 +756,7 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="badge_corner_radius">13dp</dimen>
     <dimen name="badge_height_padding">1dp</dimen>
@@ -833,6 +834,7 @@
     <dimen name="fixed_no_title_icon_height">32dp</dimen>
     <dimen name="fixed_no_title_icon_width">32dp</dimen>
     <dimen name="fixed_width_padding">12dp</dimen>
+    <dimen name="folder_cover_size">72dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -840,6 +842,7 @@
     <item format="float" name="hint_alpha_material_light" type="dimen">0.38</item>
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
+    <dimen name="image_size">90dp</dimen>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
@@ -885,6 +888,7 @@
     <dimen name="small_navigator_height">5dp</dimen>
     <dimen name="space_line">6dp</dimen>
     <dimen name="space_line2">12dp</dimen>
+    <dimen name="space_size">2dp</dimen>
     <dimen name="standard_title">20sp</dimen>
     <dimen name="standard_weak">10sp</dimen>
     <dimen name="standard_work">14sp</dimen>
@@ -953,6 +957,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_settings">Settings</string>
     <string name="add_failed">添加失败，请检查网络后重试</string>
     <string name="add_succeed">添加成功</string>
     <string name="adding">正在添加，请稍后...</string>
@@ -1001,12 +1006,14 @@
     <string name="dynamic_tab">dynamic tab</string>
     <string name="fin_new_Version">发现新版本</string>
     <string name="fixed_tab">fixed tab</string>
+    <string name="folder_all">All Images</string>
     <string name="function_will_coming_soon">这个功能即将推出^_^</string>
     <string name="gdtslogan">GDTslogan</string>
     <string name="get_failed">获取失败，请检查网络后重试</string>
     <string name="get_succeed">获取成功</string>
     <string name="get_top_Activity">获取顶层Activity</string>
     <string name="hello">Hello World!</string>
+    <string name="hello_world">Hello world!</string>
     <string name="hideLoadprogress">隐藏加载进度</string>
     <string name="hint">隐藏</string>
     <string name="home">首页</string>
@@ -1015,6 +1022,8 @@
     <string name="loading">正在加载，请稍后...</string>
     <string name="loading1">正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...正在加载，请稍后...</string>
     <string name="logging">正在登录，请稍侯……</string>
+    <string name="msg_amount_limit">Select images amount is limit</string>
+    <string name="msg_no_camera">No system camera found</string>
     <string name="name">名字</string>
     <string name="net_error">网络异常，请稍后重试</string>
     <string name="no_fin_local_video">没有发现本地视频</string>
@@ -1036,6 +1045,7 @@
     <string name="picture_presentation">照片裁剪</string>
     <string name="please_content">请输入内容</string>
     <string name="please_put_web">请输入网址</string>
+    <string name="preview">Preview</string>
     <string name="pull_to_refresh_pull_label">下拉刷新…</string>
     <string name="pull_to_refresh_refreshing_label">正在载入…</string>
     <string name="pull_to_refresh_release_label">放开以刷新…</string>
@@ -1066,6 +1076,7 @@
     <string name="tab_with_badge_view">tab with badge view</string>
     <string name="tab_with_custom_layout">load custom layout</string>
     <string name="titleName">标题名</string>
+    <string name="title_activity_preview_pictures">PreviewPicturesActivity</string>
     <string name="title_activity_util">UtilActivity</string>
     <string name="update">更新</string>
     <string name="work_with_fragment_container">work with fragment container</string>

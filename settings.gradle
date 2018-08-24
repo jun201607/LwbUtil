@@ -1,1 +1,1 @@
-include ':myUtil', ':myapp', "magicindicator"
+include ':myUtil', ':myapp', "magicindicator","multi-image-selector"
