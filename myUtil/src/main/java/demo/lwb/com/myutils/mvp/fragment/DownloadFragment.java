@@ -23,7 +23,6 @@ import demo.lwb.com.myutils.Utils.AppUtils;
 import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
-import demo.lwb.com.myutils.mvp.presenter.HomeTab1Presenter;
 import demo.lwb.com.myutils.service.FileDownService;
 
 /**

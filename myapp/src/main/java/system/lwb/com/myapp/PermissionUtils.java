@@ -19,10 +19,10 @@ import java.io.InputStreamReader;
 
 public class PermissionUtils {
     private static final String TAG = "PermissionUtils";
-    private static final String BRAND_VIVO = "vivo";
-    private static final String BRAND_XIAOMI = "xiaomi";
-    private static final String BRAND_HUAWEI = "HUAWEI";
-    private static final String BRAND_GOOGLE = "google";
+//    private static final String BRAND_VIVO = "vivo";
+//    private static final String BRAND_XIAOMI = "xiaomi";
+//    private static final String BRAND_HUAWEI = "HUAWEI";
+//    private static final String BRAND_GOOGLE = "google";
     /**
      * 申请权限
      * @param activity

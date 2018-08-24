@@ -44,7 +44,7 @@
  # 保留我们使用的四大组件，自定义的Application等等这些类不被混淆
  # 因为这些子类都有可能被外部调用
  -keep public class * extends android.app.Activity
- -keep public class * extends android.app.Appliction
+ -keep public class * extends android.app.Application
  -keep public class * extends android.app.Service
  -keep public class * extends android.content.BroadcastReceiver
  -keep public class * extends android.content.ContentProvider
@@ -52,8 +52,8 @@
  -keep public class * extends android.preference.Preference
  -keep public class * extends android.view.View
  -keep public class com.android.vending.licensing.ILicensingService
-
-
+ -keep public class * extends android.app.Fragment
+ -keep public class * extends android.support.v4.**
  # 保留support下的所有类及其内部类
  -keep class android.support.** {*;}
 
@@ -351,3 +351,13 @@ public static java.lang.String TABLENAME;
 -dontwarn com.just.agentweb.**
 -keepclassmembers class com.just.agentweb.sample.common.AndroidInterface{ *; }
 #==================AgentWeb============
+
+
+#=========lib==========
+-libraryjars libs/fastjson-1.1.39.jar
+-libraryjars libs/GDTUnionSDK.4.17.568.min.jar
+-libraryjars libs/lib_volley0315.jar
+-libraryjars libs/nineoldandroids-2.4.0.jar
+-libraryjars libs/rebound-core.jar
+-libraryjars libs/universal-image-loader-1.9.4.jar
+#=========lib==========

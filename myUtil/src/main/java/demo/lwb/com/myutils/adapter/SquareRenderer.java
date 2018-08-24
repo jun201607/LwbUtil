@@ -18,7 +18,6 @@ import javax.microedition.khronos.opengles.GL10;
 
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.Utils.OpenGLUitl;
-import demo.lwb.com.myutils.mvp.demo.PublicFragmentActivity;
 
 import static android.opengl.GLES20.glUseProgram;
 

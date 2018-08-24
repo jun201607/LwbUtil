@@ -34,7 +34,7 @@ public final class FileUtils
 	private static final String SDCARD_ROOT = Environment.getExternalStorageDirectory().getAbsolutePath() + "/";
 	public static final String FILE_ROOT = SDCARD_ROOT + "animetaste/download/";
 
-	private static final long LOW_STORAGE_THRESHOLD = 1024 * 1024 * 10;
+//	private static final long LOW_STORAGE_THRESHOLD = 1024 * 1024 * 10;
 
 	/**
 	 * 1、删除文件/文件夹，如果是文件夹，会连同他的子目录一起删除

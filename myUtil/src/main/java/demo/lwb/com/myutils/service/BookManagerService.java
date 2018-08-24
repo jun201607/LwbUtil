@@ -8,10 +8,6 @@ import android.os.IBinder;
 import demo.lwb.com.myutils.aidl.BinderPool;
 
 public class BookManagerService extends Service {
-    private static final String TAG = "BookManagerService";
-
-
-
     @Override
     public void onCreate() {
         super.onCreate();

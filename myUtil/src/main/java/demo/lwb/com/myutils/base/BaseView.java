@@ -33,7 +33,6 @@ import android.view.View.OnTouchListener;
  * @use extends BaseView<T>, 具体参考.DemoView
  */
 public abstract class BaseView<T> implements DataGetter {
-	private static final String TAG = "BaseView";
 
 	/**
 	 * 传入的Activity,可在子类直接使用

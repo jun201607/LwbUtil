@@ -1,24 +1,15 @@
 package demo.lwb.com.myutils.Utils.retrofit;
 
-import android.util.ArrayMap;
-import android.util.Log;
-
 import com.trello.rxlifecycle2.components.support.RxFragment;
-
 import java.io.File;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.bean.Demo;
 import demo.lwb.com.myutils.bean.LoginBean;
 import demo.lwb.com.myutils.bean.UpImage;
-import io.reactivex.Observable;
 import io.reactivex.Observer;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.Disposable;
-import io.reactivex.schedulers.Schedulers;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;

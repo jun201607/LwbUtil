@@ -4,7 +4,6 @@ import android.app.ProgressDialog;
 import android.content.Context;
 
 import demo.lwb.com.myutils.Utils.NetStatusUtils;
-import io.reactivex.annotations.NonNull;
 import io.reactivex.disposables.Disposable;
 
 /**

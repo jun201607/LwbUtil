@@ -5,7 +5,6 @@ import android.os.Bundle;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
-import demo.lwb.com.myutils.mvp.presenter.HomeTab1Presenter;
 
 /**
  * Created by lwb on 2017/12/27.

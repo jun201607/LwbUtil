@@ -8,10 +8,8 @@ import butterknife.BindView;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
-import demo.lwb.com.myutils.mvp.presenter.HomeTab1Presenter;
 import demo.lwb.com.myutils.wight.MatchView.MatchButton;
 import demo.lwb.com.myutils.wight.MatchView.MatchTextView;
-import demo.lwb.com.myutils.wight.MatchView.util.MatchView;
 
 /**
  * Created by lwb on 2017/12/27.

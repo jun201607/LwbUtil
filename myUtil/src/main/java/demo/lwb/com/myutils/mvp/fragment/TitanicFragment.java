@@ -1,19 +1,12 @@
 package demo.lwb.com.myutils.mvp.fragment;
 
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
-import demo.lwb.com.myutils.mvp.presenter.HomeTab1Presenter;
 import demo.lwb.com.myutils.wight.titanic.Titanic;
-import demo.lwb.com.myutils.wight.titanic.TitanicTextView;
 import demo.lwb.com.myutils.wight.titanic.Typefaces;
 
 

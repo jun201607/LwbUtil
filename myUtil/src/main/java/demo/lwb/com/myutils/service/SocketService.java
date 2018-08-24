@@ -13,7 +13,7 @@ import java.net.URISyntaxException;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
-import javax.net.ssl.SSLContext;
+
 import io.socket.client.IO;
 import io.socket.client.Manager;
 import io.socket.client.Socket;

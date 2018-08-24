@@ -1,7 +1,5 @@
 package demo.lwb.com.myutils.Utils.retrofit;
 
-import android.util.Log;
-
 import java.io.IOException;
 import java.util.Locale;
 

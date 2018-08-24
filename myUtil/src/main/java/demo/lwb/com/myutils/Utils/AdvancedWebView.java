@@ -23,7 +23,6 @@ import android.os.Environment;
 import android.os.Message;
 import android.util.AttributeSet;
 import android.util.Base64;
-import android.view.InputEvent;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,8 +56,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.MissingResourceException;
-
-import demo.lwb.com.myutils.mvp.fragment.Web_ViewFragment;
 
 /** Advanced WebView component for Android that works as intended out of the box */
 @SuppressWarnings("deprecation")

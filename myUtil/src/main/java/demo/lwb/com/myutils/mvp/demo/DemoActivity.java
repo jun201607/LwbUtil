@@ -35,7 +35,6 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 import demo.lwb.com.myutils.R;
-import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.adapter.ViewPagerHomeAdapter;
 import demo.lwb.com.myutils.base.BaseFragmentActivity;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;

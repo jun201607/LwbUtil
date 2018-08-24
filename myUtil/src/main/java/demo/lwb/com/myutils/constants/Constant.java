@@ -1,7 +1,5 @@
 package demo.lwb.com.myutils.constants;
 
-import android.os.Environment;
-
 import demo.lwb.com.myutils.R;
 
 /**

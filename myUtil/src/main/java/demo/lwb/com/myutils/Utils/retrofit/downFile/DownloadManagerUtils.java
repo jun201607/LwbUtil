@@ -7,11 +7,11 @@ import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import java.io.File;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+
 import demo.lwb.com.myutils.Utils.FileUtils;
 import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.Utils.MyUtils;
 import demo.lwb.com.myutils.Utils.retrofit.ApiService;
-import demo.lwb.com.myutils.constants.Constant;
 import demo.lwb.com.myutils.constants.Url;
 import io.reactivex.Observable;
 import io.reactivex.android.schedulers.AndroidSchedulers;

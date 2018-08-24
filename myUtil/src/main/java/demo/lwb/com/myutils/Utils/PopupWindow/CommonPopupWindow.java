@@ -4,8 +4,6 @@ import android.content.Context;
 import android.view.View;
 import android.widget.PopupWindow;
 
-import demo.lwb.com.myutils.Utils.CommonUtil;
-
 /**
  * Created by lwb on 2018/1/18.
  * PopupWindow工具类

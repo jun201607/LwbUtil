@@ -1,13 +1,9 @@
 package demo.lwb.com.myutils.Utils.volley;
 
-import android.content.Context;
-
-import com.android.volley.Response;
 import com.android.volley.VolleyError;
 
-import org.json.JSONObject;
-
-import static com.android.volley.Response.*;
+import static com.android.volley.Response.ErrorListener;
+import static com.android.volley.Response.Listener;
 
 /**
  * Created by Administrator on 2017/9/6.

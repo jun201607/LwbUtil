@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\menu\\menu_main.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\menu\\menu_bottom_navigation_view.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\menu\\menu_bottom_navigation_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\menu\\drawerlayout_menu.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\menu\\drawerlayout_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\menu\\menu_preview_pictures.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\menu\\menu_preview_pictures.xml"
+    }
+]

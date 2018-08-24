@@ -17,26 +17,18 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.trello.rxlifecycle2.components.support.RxFragment;
-
-import java.util.ArrayList;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import demo.lwb.com.myutils.R;
-import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.manager.FramentManages;
 import demo.lwb.com.myutils.mvp.Interfaces.IPopBackStackListener;
 import demo.lwb.com.myutils.mvp.demo.PublicFragmentActivity;
-import demo.lwb.com.myutils.mvp.fragment.ToolbarFragment;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
 import demo.lwb.com.myutils.mvp.presenter.HomeTab1Presenter;
 

@@ -1,10 +1,12 @@
 package demo.lwb.com.myutils.Utils;
 
 import android.app.Activity;
-import android.content.Intent;
 
 import me.nereo.multi_image_selector.MultiImageSelectorActivity;
 
+/**
+ * 图片选择器
+ */
 public class ImageSeletUtils {
 
     /**

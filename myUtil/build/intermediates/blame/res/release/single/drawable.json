@@ -1,0 +1,490 @@
+[
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_orange_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_orange_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\input_bg_pressed.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\input_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\list_item_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\list_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\progress_color_horizontal.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\progress_color_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\seekbar_style_pro.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\seekbar_style_pro.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\menu_manage_manager_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\menu_manage_manager_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\oval_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\oval_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\null_drawable.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\null_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\action_btn.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\drawable\\action_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\bg_gray_to_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\bg_gray_to_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\circle_yellow.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\circle_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_sky_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_sky_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\menu_member_manage_cancel_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\menu_member_manage_cancel_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_green_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_green_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\edit_cusor.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\edit_cusor.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\input_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\input_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\radius_shape_alph.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\radius_shape_alph.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\green_rounded_rectangle_normal.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\green_rounded_rectangle_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\tab_bg_left_empty_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\tab_bg_left_empty_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\tab_bg_right_empty_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\tab_bg_right_empty_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\oval_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\oval_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\alpha3.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\alpha3.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\circle_blue.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\circle_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\tab_bg_right_full_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\tab_bg_right_full_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9b18de82dde62fce907f67e74496adebc5af3c6a\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\bg_item_to_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\bg_item_to_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9b18de82dde62fce907f67e74496adebc5af3c6a\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\menu_manage_manager_cancel_bg_pressed.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\menu_manage_manager_cancel_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9b18de82dde62fce907f67e74496adebc5af3c6a\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\card_bg.9.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\card_bg.9.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_round_bg_pressed.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_round_bg_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_bg_common.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_bg_common.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_round_big_pressed.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_round_big_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\bg_pressed_common.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\bg_pressed_common.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_pressed_shape.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\white_btn_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\white_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\radiobtn_selector.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\radiobtn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_left_but_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_left_but_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\to_gray_slight.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\to_gray_slight.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\circle_green.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\circle_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_normal_shape.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\circle_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\circle_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_web_but_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_web_but_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\bg_white_to_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\bg_white_to_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\round_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\round_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\select_btn.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\select_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_round_big_normal.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_round_big_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\edit_text_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\edit_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\simple_splitter.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\simple_splitter.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\cilcle_gray.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\cilcle_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\circle_pink.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\circle_pink.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\list_item_blank_divider.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\list_item_blank_divider.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\alpha_to_darker_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\alpha_to_darker_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\background_circle.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\background_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_bg_map.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_bg_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_btn_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\tab_bg_center_full_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\tab_bg_center_full_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\icon_gray_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\icon_gray_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\icon_white_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\icon_white_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\menu_member_manage_item_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\menu_member_manage_item_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\simple_red_dot.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\simple_red_dot.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\round_spinner.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\round_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_bg_rec.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_bg_rec.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9b18de82dde62fce907f67e74496adebc5af3c6a\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_right_but_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_right_but_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_round_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_round_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\cilcle_gray_to_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\cilcle_gray_to_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\simple_count_badge_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\simple_count_badge_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\tab_bg_left_full_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\tab_bg_left_full_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\bg_black_to_white_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\bg_black_to_white_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\bg_green_to_darker_green.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\bg_green_to_darker_green.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\round_rectangle_empty_white.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\round_rectangle_empty_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_small.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9b18de82dde62fce907f67e74496adebc5af3c6a\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\edit_item_text_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\edit_item_text_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\round_indicator_bg.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\round_indicator_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\menu_manage_manager_cancel_bg_normal.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\menu_manage_manager_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_selector.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\9afebf9e88be60ee7bcc9010e7c64bf3d7614324\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\bg_white_to_gray.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\bg_white_to_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\menu_bottom.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\menu_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\square_alpha.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\square_alpha.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\drawable\\btn_blue_round_bg_normal.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\drawable\\btn_blue_round_bg_normal.xml"
+    }
+]

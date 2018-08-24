@@ -23,7 +23,6 @@ import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.adapter.SmartRefreshLayoutAdapter;
 import demo.lwb.com.myutils.base.BaseFragment;
-import demo.lwb.com.myutils.constants.Constant;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
 
 /**

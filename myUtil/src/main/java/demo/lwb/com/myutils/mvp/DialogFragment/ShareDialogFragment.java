@@ -1,12 +1,9 @@
 package demo.lwb.com.myutils.mvp.DialogFragment;
 
-import android.app.Activity;
 import android.app.DialogFragment;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -15,7 +12,6 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
-import java.io.File;
 
 import demo.lwb.com.myutils.R;
 

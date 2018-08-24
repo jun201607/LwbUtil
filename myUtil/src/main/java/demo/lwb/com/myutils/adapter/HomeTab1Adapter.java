@@ -9,8 +9,6 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.base.BaseAdapter;
 

@@ -3,19 +3,13 @@ package demo.lwb.com.myutils.mvp.fragment;
 import android.os.Bundle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
-import butterknife.Unbinder;
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
-import demo.lwb.com.myutils.mvp.presenter.HomeTab1Presenter;
 
 /**
  * Created by lwb on 2018/3/28.

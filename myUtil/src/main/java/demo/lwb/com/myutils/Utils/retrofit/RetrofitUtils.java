@@ -2,8 +2,6 @@ package demo.lwb.com.myutils.Utils.retrofit;
 
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 import demo.lwb.com.myutils.constants.Url;

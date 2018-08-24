@@ -1,7 +1,6 @@
 package demo.lwb.com.myutils.mvp.fragment;
 
 import android.Manifest;
-import android.app.DownloadManager;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.view.View;
@@ -16,7 +15,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 import demo.lwb.com.myutils.R;
-import demo.lwb.com.myutils.Utils.DownloadUtils;
 import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.Utils.PermissionUtils;
 import demo.lwb.com.myutils.Utils.retrofit.MyObserver;
@@ -26,7 +24,6 @@ import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.bean.Demo;
 import demo.lwb.com.myutils.bean.LoginBean;
 import demo.lwb.com.myutils.bean.UpImage;
-import demo.lwb.com.myutils.constants.Constant;
 import demo.lwb.com.myutils.constants.Url;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
 import io.reactivex.Observer;

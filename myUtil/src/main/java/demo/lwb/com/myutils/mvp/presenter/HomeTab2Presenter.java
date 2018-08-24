@@ -9,7 +9,6 @@ import java.util.List;
 
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.adapter.HomeTab1Adapter;
-import demo.lwb.com.myutils.constants.Constant;
 
 /**
  * Created by Administrator on 2017/12/24.

@@ -9,9 +9,8 @@ import android.location.LocationListener;
 import android.location.LocationManager;
 import android.location.LocationProvider;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
 import android.provider.Settings;
-import android.widget.Toast;
+import android.support.v4.app.ActivityCompat;
 
 import java.util.List;
 

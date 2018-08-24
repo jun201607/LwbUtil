@@ -10,13 +10,9 @@ import android.os.Binder;
 import android.os.Environment;
 import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
-import android.support.v4.media.session.MediaSessionCompat;
-
 import java.io.File;
-
 import demo.lwb.com.myutils.R;
 import demo.lwb.com.myutils.Utils.FileDownloadUtils;
-import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.interfaces.FileDownLoadListener;
 import demo.lwb.com.myutils.mvp.demo.DemoActivity;
 
