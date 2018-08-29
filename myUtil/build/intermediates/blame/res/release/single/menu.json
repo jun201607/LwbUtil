@@ -12,6 +12,10 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\menu\\drawerlayout_menu.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\menu\\ucrop_menu_activity.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\04a1ca7323ec7f77944313f3e7a8bcc74d6db3aa\\output\\res\\menu\\ucrop_menu_activity.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\menu\\menu_preview_pictures.xml",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\menu\\menu_preview_pictures.xml"
     }

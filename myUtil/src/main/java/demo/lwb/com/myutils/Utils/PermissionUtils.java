@@ -18,6 +18,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class PermissionUtils {
+    public static final String CAMERA = android.Manifest.permission.CAMERA;
+    public static final String WRITE_EXTERNAL_STORAGE = android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+
+
     private static final String TAG = "PermissionUtils";
     private static final String BRAND_VIVO = "vivo";
     private static final String BRAND_XIAOMI = "xiaomi";

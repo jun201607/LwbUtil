@@ -1,0 +1,3 @@
+# view AndroidManifest.xml #generated:27
+-keep class demo.lwb.com.myutils.base.BaseApplication { <init>(...); }
+

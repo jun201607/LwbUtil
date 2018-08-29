@@ -1,11 +1,14 @@
 package demo.lwb.com.myutils.Utils;
 
 import android.app.Activity;
+import android.app.Application;
 import android.content.Context;
 import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import demo.lwb.com.myutils.base.BaseApplication;
 
 /**
  * Created by BlueSky on 2018/6/5.
@@ -91,4 +94,13 @@ public class MyUtils {
         }
         return head + url;
     }
+
+    /**
+     * Toast
+     * @param content
+     */
+    public static void toast(String content){
+        Toast.makeText(BaseApplication.getInstances(),content,Toast.LENGTH_SHORT).show();
+    }
+
 }

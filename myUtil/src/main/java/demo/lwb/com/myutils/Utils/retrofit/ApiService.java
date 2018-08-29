@@ -2,10 +2,7 @@ package demo.lwb.com.myutils.Utils.retrofit;
 
 import java.util.List;
 import java.util.Map;
-
 import demo.lwb.com.myutils.bean.Demo;
-import demo.lwb.com.myutils.bean.LoginBean;
-import demo.lwb.com.myutils.bean.UpImage;
 import io.reactivex.Observable;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
@@ -77,7 +74,6 @@ public interface ApiService {
          * TODO POST请求
          */
         //第一种方式：@Body
-//        @Headers({"Content-Type:application/json", "Accept:application/json"})
         @Headers("Accept:application/json")
         @POST("login")
         Observable<Response<Demo>> postUser(@Body RequestBody body);
@@ -86,7 +82,7 @@ public interface ApiService {
         @Headers("Accept:application/json")
         @POST("auth/login")
         @FormUrlEncoded
-        Observable<retrofit2.Response<LoginBean>> postUser(@Field("username") String username, @Field("password") String password);
+        Observable<retrofit2.Response<Demo>> postUser(@Field("username") String username, @Field("password") String password);
         //多个参数
         Observable<Response<Demo>> postUser(@FieldMap Map<String, String> map);
 
@@ -121,7 +117,7 @@ public interface ApiService {
         //亲测可用
         @Multipart
         @POST("member/avatar")
-        Observable<Response<UpImage>> uploadImage(@HeaderMap Map<String, String> headers, @Part MultipartBody.Part file);
+        Observable<Response<Demo>> uploadImage(@HeaderMap Map<String, String> headers, @Part MultipartBody.Part file);
 
 
 
@@ -134,16 +130,15 @@ public interface ApiService {
         @Multipart
         @POST("register")
         Observable<ResponseBody> upload(@PartMap Map<String, RequestBody> params, @Part("description") RequestBody description);
-//        Observable<ResponseBody> upload(@Part() List<MultipartBody.Part> parts);
+        //Observable<ResponseBody> upload(@Part() List<MultipartBody.Part> parts);
 
         //亲测可用
         @Multipart
         @POST("member/avatar")
-        Observable<Response<UpImage>> uploadImage1(@HeaderMap Map<String, String> headers, @Part List<MultipartBody.Part> file);
+        Observable<Response<Demo>> uploadImage1(@HeaderMap Map<String, String> headers, @Part List<MultipartBody.Part> file);
 
-
-        /**https://blog.csdn.net/impure/article/details/79658098
-         * @return Observable
+        /**
+         * 来自https://blog.csdn.net/impure/article/details/79658098
          * @Streaming 这个注解必须添加，否则文件全部写入内存，文件过大会造成内存溢出
          */
         @Streaming

@@ -14,6 +14,8 @@ import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
+import demo.lwb.com.myutils.Utils.camera.RxTool;
+
 /**
  * TODO 跟App相关的辅助类
  *
@@ -32,6 +34,9 @@ public class AppUtils
 		/* cannot be instantiated */
         throw new UnsupportedOperationException("cannot be instantiated");
 
+    }
+    public static String getAppPackageName() {
+        return RxTool.getContext().getPackageName();
     }
 
     /**

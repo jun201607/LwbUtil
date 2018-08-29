@@ -3,6 +3,7 @@ package demo.lwb.com.myutils.mvp.fragment;
 import android.Manifest;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
@@ -193,14 +194,14 @@ public class Retrofit2RxjavaFragment extends BaseFragment implements DownloadMan
     private void uploades() {
         files.clear();
         files.add(new File("/storage/emulated/0/Tencent/QQ_Images/null76b875f13b74d7db.jpg"));
-        RequestUtils.upLoadImg(this, access_token, files, new Observer<Response<UpImage>>() {
+        RequestUtils.upLoadImg(this, access_token, files, new Observer<Response<Demo>>() {
             @Override
             public void onSubscribe(Disposable d) {
 
             }
 
             @Override
-            public void onNext(Response<UpImage> upImageResponse) {
+            public void onNext(Response<Demo> upImageResponse) {
                 LogUtils.e("code" + upImageResponse.code());
                 tvGet.setText(""+upImageResponse.code());
                 LogUtils.e("body" + upImageResponse.body());
@@ -219,24 +220,23 @@ public class Retrofit2RxjavaFragment extends BaseFragment implements DownloadMan
     }
 
 
-
+    private static final String TAG = "Retrofit2RxjavaFragment";
     /**
      * post
      * 测试通过后，私有网址已被我屏蔽
      * 请替换成自己的网址
      */
     private void postRequest() {
-        RequestUtils.postDemo(this, "aaa", "sss", new Observer<Response<LoginBean>>() {
+        RequestUtils.postDemo(this, "aaa", "sss", new Observer<Response<Demo>>() {
             @Override
             public void onSubscribe(Disposable d) {
 
             }
 
             @Override
-            public void onNext(Response<LoginBean> loginBeanResponse) {
-                String accesstoken = loginBeanResponse.body().getAccess_token();
-                access_token = "Bearer " + accesstoken;
-                tvGet.setText(loginBeanResponse.body().getToken_type());
+            public void onNext(Response<Demo> loginBeanResponse) {
+                Log.e(TAG, "onNext: "+ loginBeanResponse.code());
+
             }
 
             @Override
@@ -286,13 +286,13 @@ public class Retrofit2RxjavaFragment extends BaseFragment implements DownloadMan
      * upload
      */
     private void uploade() {
-        RequestUtils.upImagView(this, access_token,"/storage/emulated/0/Tencent/QQ_Images/null76b875f13b74d7db.jpg", new Observer<Response<UpImage>>() {
+        RequestUtils.upImagView(this, access_token,"/storage/emulated/0/Tencent/QQ_Images/null76b875f13b74d7db.jpg", new Observer<Response<Demo>>() {
             @Override
             public void onSubscribe(Disposable d) {
 
             }
             @Override
-            public void onNext(Response<UpImage> upImageResponse) {
+            public void onNext(Response<Demo> upImageResponse) {
                 LogUtils.e("code"+upImageResponse.code());
                 tvGet.setText(""+upImageResponse.code());
                 LogUtils.e("body"+upImageResponse.body());

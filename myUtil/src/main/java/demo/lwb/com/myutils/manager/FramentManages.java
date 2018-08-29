@@ -14,8 +14,8 @@ import demo.lwb.com.myutils.mvp.fragment.AgentWebFragment;
 import demo.lwb.com.myutils.mvp.fragment.AidlFragment;
 import demo.lwb.com.myutils.mvp.fragment.AnimationTextViewFragment;
 import demo.lwb.com.myutils.mvp.fragment.BottomNavigationBarFragment;
+import demo.lwb.com.myutils.mvp.fragment.CameraAlbumFragment;
 import demo.lwb.com.myutils.mvp.fragment.CardViewFragment;
-import demo.lwb.com.myutils.mvp.fragment.ContentProviderFragment;
 import demo.lwb.com.myutils.mvp.fragment.DownloadFragment;
 import demo.lwb.com.myutils.mvp.fragment.DrawerLayoutFragment;
 import demo.lwb.com.myutils.mvp.fragment.EventBusFragment;
@@ -30,7 +30,9 @@ import demo.lwb.com.myutils.mvp.fragment.MessengerFragment;
 import demo.lwb.com.myutils.mvp.fragment.MyFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_SquareFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_TriangleFragment;
+import demo.lwb.com.myutils.mvp.fragment.QR_CodeFragment;
 import demo.lwb.com.myutils.mvp.fragment.Retrofit2RxjavaFragment;
+import demo.lwb.com.myutils.mvp.fragment.Scan_CodeFragment;
 import demo.lwb.com.myutils.mvp.fragment.SmartRefreshLayoutFragment;
 import demo.lwb.com.myutils.mvp.fragment.SwipeCardFragment;
 import demo.lwb.com.myutils.mvp.fragment.TitanicFragment;
@@ -64,7 +66,6 @@ public class FramentManages
 	public final static String SmartRefreshLayout="下拉刷新上拉加载SmartRefreshLayout";
 	public final static String Messenger="使用Messenger跨进程通信";
 	public final static String AIDL="使用AIDL跨进程通信";
-	public final static String ContentProvider="使用ContentProvider跨进程通信";
 	public final static String BottomNavigationBar="底部导航栏BottomNavigationBar";
 	public final static String Magicindicator="指示器Magicindicator";
 	public final static String jellyViewPager="可拖动jellyViewPager";
@@ -76,6 +77,9 @@ public class FramentManages
 	public final static String WebView="网页WebView";
 	public final static String AgentWeb="AgentWeb";
 	public final static String Retrofit2Rxjava="Retrofit2Rxjava封装";
+	public final static String CameraAlbum="相机相册";
+	public final static String QR_Code="二维码生成及扫描";
+	public final static String Scan_Code="扫描二维码";
 
 	/**
 	 * 这个在Fragment中不能new出来,只能在Activity中new，每个Activity对应一个List_fragment来管理
@@ -120,8 +124,6 @@ public class FramentManages
 				return new MessengerFragment();
 			case FramentManages.AIDL:
 				return new AidlFragment();
-			case FramentManages.ContentProvider:
-				return new ContentProviderFragment();
 			case FramentManages.BottomNavigationBar:
 				return new BottomNavigationBarFragment();
 			case FramentManages.Magicindicator:
@@ -144,6 +146,12 @@ public class FramentManages
 				return new AgentWebFragment();
 			case FramentManages.Retrofit2Rxjava:
 				return new Retrofit2RxjavaFragment();
+			case FramentManages.CameraAlbum:
+				return new CameraAlbumFragment();
+			case FramentManages.QR_Code:
+				return new QR_CodeFragment();
+			case FramentManages.Scan_Code:
+				return new Scan_CodeFragment();
 		}
 	}
 

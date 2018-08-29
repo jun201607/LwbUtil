@@ -7,8 +7,6 @@ import java.util.List;
 import java.util.Map;
 import demo.lwb.com.myutils.Utils.LogUtils;
 import demo.lwb.com.myutils.bean.Demo;
-import demo.lwb.com.myutils.bean.LoginBean;
-import demo.lwb.com.myutils.bean.UpImage;
 import io.reactivex.Observer;
 import okhttp3.MediaType;
 import okhttp3.MultipartBody;
@@ -16,7 +14,7 @@ import okhttp3.RequestBody;
 import retrofit2.Response;
 
 /**
- * 项目请求 归纳类
+ * 项目请求再次封装 归纳类
  */
 public class RequestUtils {
     /**
@@ -34,7 +32,7 @@ public class RequestUtils {
      * @param context
      * @param consumer
      */
-    public static void postDemo(RxFragment context, String name, String password, Observer<Response<LoginBean>> consumer){
+    public static void postDemo(RxFragment context, String name, String password, Observer<Response<Demo>> consumer){
         RetrofitUtils.getApiService()
                 .postUser(name,password).compose(RxHelper.observableIO2Main(context))
                 .subscribe(consumer);
@@ -68,7 +66,7 @@ public class RequestUtils {
      * @param context
      * @param observer
      */
-    public static void upImagView(RxFragment context, String  access_token,String str, Observer<Response<UpImage>>  observer){
+    public static void upImagView(RxFragment context, String  access_token,String str, Observer<Response<Demo>>  observer){
         LogUtils.e("access_token:::"+access_token);
         File file = new File(str);
 //        File file = new File(imgPath);
@@ -89,7 +87,7 @@ public class RequestUtils {
      * 上传多张图片
      * @param files
      */
-    public static void upLoadImg(RxFragment context,String access_token,List<File> files, Observer<Response<UpImage>>  observer1){
+    public static void upLoadImg(RxFragment context,String access_token,List<File> files, Observer<Response<Demo>>  observer1){
         Map<String,String> header = new HashMap<String, String>();
         header.put("Accept","application/json");
         header.put("Authorization",access_token);

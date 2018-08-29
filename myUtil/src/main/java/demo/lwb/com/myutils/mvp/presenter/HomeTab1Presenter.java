@@ -86,9 +86,6 @@ public class HomeTab1Presenter extends BasePresenter{
                    case FramentManages.AIDL:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.AIDL, bundle));
                        break;
-                   case FramentManages.ContentProvider:
-                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.ContentProvider, bundle));
-                       break;
                    case FramentManages.BottomNavigationBar:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.BottomNavigationBar, bundle));
                        break;
@@ -118,6 +115,12 @@ public class HomeTab1Presenter extends BasePresenter{
                        break;
                    case FramentManages.Retrofit2Rxjava:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.Retrofit2Rxjava, bundle));
+                       break;
+                   case FramentManages.CameraAlbum:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.CameraAlbum, bundle));
+                       break;
+                   case FramentManages.QR_Code:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.QR_Code, bundle));
                        break;
                    default:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.UtilsDetail, bundle));

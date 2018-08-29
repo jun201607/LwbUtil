@@ -14,6 +14,7 @@ limitations under the License.*/
 
 package demo.lwb.com.myutils.Utils;
 
+import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.TextView;
 import java.io.File;
@@ -650,5 +651,14 @@ public class StringUtil {
 			}
 		}
 		return string;
+	}
+	/**
+	 * 判断字符串是否为空 为空即true
+	 *
+	 * @param str 字符串
+	 * @return
+	 */
+	public static boolean isNullString(@Nullable String str) {
+		return str == null || str.length() == 0 || "null".equals(str);
 	}
 }

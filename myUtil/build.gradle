@@ -1,12 +1,20 @@
 apply plugin: 'com.android.application'
 apply plugin: 'org.greenrobot.greendao'
 android {
-    compileSdkVersion 25
-     buildToolsVersion "25.0.2"
+    signingConfigs {
+        config {
+            keyAlias 'lwbutlis'
+            keyPassword 'lwb123'
+            storeFile file('C:/Users/admin/Desktop/LwbUtils-master/LwbUtils.jks')
+            storePassword 'lwb123'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
     defaultConfig {
         applicationId "demo.lwb.com.myutils"
         minSdkVersion 18
-        targetSdkVersion 25
+        targetSdkVersion 26
         versionCode 1
         versionName "1.0"
         multiDexEnabled true //突破应用方法数65535的一个限制
@@ -15,27 +23,27 @@ android {
         jackOptions {
             enabled true
         }
+        signingConfig signingConfigs.config
     }
-
     greendao {
         //版本号，升级时可配置
         schemaVersion 1
         daoPackage 'demo.lwb.com.myutils.gen'
         targetGenDir 'src/main/java'
     }
-
     buildTypes {
         release {
-//            signingConfig signingConfigs.release
             minifyEnabled true     //混淆
-            zipAlignEnabled true  //zipAlign优化
-            shrinkResources true  //移除无用的资源文件
+            zipAlignEnabled true   //zipAlign优化
+            shrinkResources false  //移除无用的资源文件
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             debuggable true
+            signingConfig signingConfigs.config
         }
         debug {
             debuggable true
             minifyEnabled false     //混淆
+            shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -48,6 +56,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    productFlavors {
+    }
 }
 
 dependencies {
@@ -55,15 +65,16 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
+    compile 'com.android.support:support-v4:26.1.0'
+    compile 'com.android.support:recyclerview-v7:26.1.0'
+    compile 'com.android.support:support-annotations:26.1.0'
+    compile 'com.android.support:appcompat-v7:26.1.0'
+    compile 'com.android.support:design:26.1.0'
+    compile 'com.android.support:cardview-v7:26.1.0'
+
     compile files('libs/universal-image-loader-1.9.4.jar')
     compile files('libs/fastjson-1.1.39.jar')
     compile 'com.android.support.constraint:constraint-layout:1.0.0-beta5'
-    compile 'com.android.support:support-v4:25.0.1'
-    compile 'com.android.support:recyclerview-v7:25.3.1'
-    compile 'com.android.support:support-annotations:25.3.1'
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.android.support:cardview-v7:25.3.1'
     //greendao
     compile 'org.greenrobot:greendao:3.2.0'
     testCompile 'junit:junit:4.12'
@@ -91,7 +102,6 @@ dependencies {
     compile project(':magicindicator')
     compile files('libs/rebound-core.jar')
     compile files('libs/nineoldandroids-2.4.0.jar')
-
     //=============AgentWeb//https://github.com/Justson/AgentWeb===============
     compile 'com.just.agentweb:agentweb:4.0.2'
     // (必选)
@@ -100,7 +110,6 @@ dependencies {
     compile 'com.just.agentweb:filechooser:4.0.2'
     // (可选)
     //=============AgentWeb//https://github.com/Justson/AgentWeb===============
-
     //    ========rxjava retrofit 请求框架==========
     compile 'com.squareup.retrofit2:retrofit:2.1.0'
     compile 'com.squareup.retrofit2:converter-gson:2.1.0'
@@ -108,9 +117,14 @@ dependencies {
     compile 'io.reactivex.rxjava2:rxjava:2.0.1'
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'com.trello.rxlifecycle2:rxlifecycle-components:2.1.0'
-    compile 'com.alibaba:fastjson:1.1.59.android'//
+    compile 'com.alibaba:fastjson:1.1.59.android'
     //    ========rxjava retrofit 请求框架==========
-
     //图片选择
     compile project(path: ':multi-image-selector')
+    //图片裁剪
+    compile 'com.github.yalantis:ucrop:2.2.2-native'
+
+    //Zxing核心包 二维码
+    compile 'com.google.zxing:core:3.3.0'
+
 }

@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="18"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -23,9 +23,7 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.1" /> <!-- 友盟分享 -->
+    <!-- 友盟分享 -->
     <application
         android:name="demo.lwb.com.myutils.base.BaseApplication"
         android:allowBackup="true"
@@ -130,6 +128,16 @@
             android:name="demo.lwb.com.myutils.viewpageindicator.LoadCustomLayoutExampleActivity"
             android:label="@string/tab_with_custom_layout" />
         <!-- viewpage指示器 -->
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
         <receiver android:name="com.just.agentweb.download.NotificationCancelReceiver" />
 
         <provider

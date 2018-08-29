@@ -20,7 +20,7 @@
 # view res/layout/design_text_input_password_icon.xml #generated:18
 -keep class android.support.design.widget.CheckableImageButton { <init>(...); }
 
-# view res/layout/design_bottom_sheet_dialog.xml #generated:17
+# view res/layout/design_bottom_sheet_dialog.xml #generated:26
 # view res/layout/fragment_floatingaction.xml #generated:2
 -keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
 
@@ -34,7 +34,7 @@
 # view sw600dp-v13\res/layout-sw600dp-v13/design_layout_snackbar.xml #generated:18
 -keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
 
-# view AndroidManifest.xml #generated:69
+# view AndroidManifest.xml #generated:67
 -keep class android.support.v4.content.FileProvider { <init>(...); }
 
 # view res/layout/activity_badge_tab_example_layout.xml #generated:59
@@ -54,12 +54,6 @@
 # view res/layout/abc_alert_dialog_material.xml #generated:41
 -keep class android.support.v4.widget.NestedScrollView { <init>(...); }
 
-# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
-# view res/layout/abc_alert_dialog_material.xml #generated:52
-# view res/layout/abc_alert_dialog_material.xml #generated:66
-# view res/layout/abc_alert_dialog_title_material.xml #generated:56
--keep class android.support.v4.widget.Space { <init>(...); }
-
 # view res/layout/abc_select_dialog_material.xml #generated:23
 -keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
 
@@ -74,13 +68,16 @@
 -keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
 
 # view res/layout/abc_screen_toolbar.xml #generated:27
+# view v26\res/layout-v26/abc_screen_toolbar.xml #generated:27
 -keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
 
 # view res/layout/abc_action_mode_bar.xml #generated:19
 # view res/layout/abc_screen_toolbar.xml #generated:43
+# view v26\res/layout-v26/abc_screen_toolbar.xml #generated:44
 -keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
 
 # view res/layout/abc_screen_toolbar.xml #generated:17
+# view v26\res/layout-v26/abc_screen_toolbar.xml #generated:17
 -keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
 
 # view res/layout/abc_action_menu_layout.xml #generated:17
@@ -93,6 +90,7 @@
 -keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
 
 # view res/layout/abc_alert_dialog_button_bar_material.xml #generated:26
+# view watch-v20\res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml #generated:18
 -keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
 
 # view res/layout/adapter_swipecard.xml #generated:6
@@ -103,6 +101,7 @@
 -keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
 
 # view res/layout/abc_alert_dialog_title_material.xml #generated:45
+# view watch-v20\res/layout-watch-v20/abc_alert_dialog_title_material.xml #generated:44
 -keep class android.support.v7.widget.DialogTitle { <init>(...); }
 
 # view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:23
@@ -126,11 +125,20 @@
 # view res/layout/demo_activity.xml #generated:8
 # view res/layout/fragment_toolbar.xml #generated:6
 # view res/layout/toolbar.xml #generated:2
+# view res/layout/ucrop_activity_photobox.xml #generated:8
+# view v26\res/layout-v26/abc_screen_toolbar.xml #generated:37
 -keep class android.support.v7.widget.Toolbar { <init>(...); }
 
 # view res/layout/abc_screen_simple.xml #generated:25
 # view res/layout/abc_screen_simple_overlay_action_mode.xml #generated:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# view res/layout/abc_alert_dialog_button_bar_material.xml #generated:43
+# view res/layout/abc_alert_dialog_material.xml #generated:52
+# view res/layout/abc_alert_dialog_material.xml #generated:66
+# view res/layout/abc_alert_dialog_title_material.xml #generated:56
+# view watch-v20\res/layout-watch-v20/abc_alert_dialog_title_material.xml #generated:53
+-keep class android.widget.Space { <init>(...); }
 
 # view res/layout/fixed_bottom_navigation_item.xml #generated:27
 # view res/layout/shifting_bottom_navigation_item.xml #generated:28
@@ -139,71 +147,91 @@
 # view res/layout/fragment_bottom_navigation_bar.xml #generated:10
 -keep class com.ashokvarma.bottomnavigation.BottomNavigationBar { <init>(...); }
 
-# view AndroidManifest.xml #generated:145
+# view AndroidManifest.xml #generated:153
 -keep class com.just.agentweb.ActionActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:135
+# view AndroidManifest.xml #generated:143
 -keep class com.just.agentweb.AgentWebFileProvider { <init>(...); }
 
-# view AndroidManifest.xml #generated:133
+# view AndroidManifest.xml #generated:141
 -keep class com.just.agentweb.download.NotificationCancelReceiver { <init>(...); }
 
-# view AndroidManifest.xml #generated:92
+# view AndroidManifest.xml #generated:90
 -keep class com.qq.e.ads.ADActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:101
+# view AndroidManifest.xml #generated:99
 -keep class com.qq.e.comm.DownloadService { <init>(...); }
 
 # view res/layout/fragment_smart_refreshlayout.xml #generated:6
 # view res/layout/include_refresh.xml #generated:5
 -keep class com.scwang.smartrefresh.layout.SmartRefreshLayout { <init>(...); }
 
-# view AndroidManifest.xml #generated:29
+# view AndroidManifest.xml #generated:132
+-keep class com.yalantis.ucrop.UCropActivity { <init>(...); }
+
+# view res/layout/ucrop_view.xml #generated:8
+-keep class com.yalantis.ucrop.view.GestureCropImageView { <init>(...); }
+
+# view res/layout/ucrop_view.xml #generated:14
+-keep class com.yalantis.ucrop.view.OverlayView { <init>(...); }
+
+# view res/layout/ucrop_activity_photobox.xml #generated:43
+# view res/layout/ucrop_fragment_photobox.xml #generated:24
+-keep class com.yalantis.ucrop.view.UCropView { <init>(...); }
+
+# view res/layout/ucrop_aspect_ratio.xml #generated:4
+-keep class com.yalantis.ucrop.view.widget.AspectRatioTextView { <init>(...); }
+
+# view res/layout/ucrop_layout_rotate_wheel.xml #generated:15
+# view res/layout/ucrop_layout_scale_wheel.xml #generated:14
+-keep class com.yalantis.ucrop.view.widget.HorizontalProgressWheelView { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
 -keep class demo.lwb.com.myutils.base.BaseApplication { <init>(...); }
 
-# view AndroidManifest.xml #generated:36
+# view AndroidManifest.xml #generated:34
 -keep class demo.lwb.com.myutils.mvp.demo.DemoActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:41
+# view AndroidManifest.xml #generated:39
 -keep class demo.lwb.com.myutils.mvp.demo.PublicFragmentActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:50
+# view AndroidManifest.xml #generated:48
 -keep class demo.lwb.com.myutils.mvp.demo.SplashActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:65
+# view AndroidManifest.xml #generated:63
 -keep class demo.lwb.com.myutils.service.BookManagerService { <init>(...); }
 
-# view AndroidManifest.xml #generated:86
+# view AndroidManifest.xml #generated:84
 -keep class demo.lwb.com.myutils.service.FileDownService { <init>(...); }
 
-# view AndroidManifest.xml #generated:62
+# view AndroidManifest.xml #generated:60
 -keep class demo.lwb.com.myutils.service.MessengerService { <init>(...); }
 
-# view AndroidManifest.xml #generated:61
+# view AndroidManifest.xml #generated:59
 -keep class demo.lwb.com.myutils.service.SocketService { <init>(...); }
 
-# view AndroidManifest.xml #generated:123
+# view AndroidManifest.xml #generated:121
 -keep class demo.lwb.com.myutils.viewpageindicator.BadgeTabExampleActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:126
+# view AndroidManifest.xml #generated:124
 -keep class demo.lwb.com.myutils.viewpageindicator.CustomNavigatorExampleActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:114
+# view AndroidManifest.xml #generated:112
 -keep class demo.lwb.com.myutils.viewpageindicator.DynamicTabExampleActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:111
+# view AndroidManifest.xml #generated:109
 -keep class demo.lwb.com.myutils.viewpageindicator.FixedTabExampleActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:120
+# view AndroidManifest.xml #generated:118
 -keep class demo.lwb.com.myutils.viewpageindicator.FragmentContainerExampleActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:129
+# view AndroidManifest.xml #generated:127
 -keep class demo.lwb.com.myutils.viewpageindicator.LoadCustomLayoutExampleActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:117
+# view AndroidManifest.xml #generated:115
 -keep class demo.lwb.com.myutils.viewpageindicator.NoTabOnlyIndicatorExampleActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:108
+# view AndroidManifest.xml #generated:106
 -keep class demo.lwb.com.myutils.viewpageindicator.ScrollableTabExampleActivity { <init>(...); }
 
 # view res/layout/fragment_jelly_viewpager.xml #generated:6
@@ -221,13 +249,16 @@
 # view res/layout/fragment_animation_textview.xml #generated:9
 -keep class demo.lwb.com.myutils.wight.MatchView.MatchTextView { <init>(...); }
 
+# view res/layout/dialog_scaleview.xml #generated:8
+-keep class demo.lwb.com.myutils.wight.RxScaleImageView { <init>(...); }
+
 # view res/layout/fragment_titanic.xml #generated:5
 -keep class demo.lwb.com.myutils.wight.titanic.TitanicTextView { <init>(...); }
 
-# view AndroidManifest.xml #generated:154
+# view AndroidManifest.xml #generated:162
 -keep class me.nereo.multi_image_selector.MultiImageSelectorActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:153
+# view AndroidManifest.xml #generated:161
 -keep class me.nereo.multi_image_selector.PreviewPicturesActivity { <init>(...); }
 
 # view res/layout/activity_badge_tab_example_layout.xml #generated:16

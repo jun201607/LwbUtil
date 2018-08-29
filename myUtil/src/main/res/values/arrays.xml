@@ -61,9 +61,10 @@
         <item>EventBus</item>
         <item>使用Messenger跨进程通信</item>
         <item>使用AIDL跨进程通信</item>
-        <item>使用ContentProvider跨进程通信</item>
         <item>本地视频</item>
         <item>AgentWeb</item>
         <item>Retrofit2Rxjava封装</item>
+        <item>相机相册</item>
+        <item>二维码生成及扫描</item>
     </string-array>
 </resources>

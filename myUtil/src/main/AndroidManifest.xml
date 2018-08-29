@@ -16,7 +16,6 @@
 
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
-
     <!-- 友盟分享 -->
     <application
         android:name=".base.BaseApplication"
@@ -128,6 +127,11 @@
             android:name=".viewpageindicator.LoadCustomLayoutExampleActivity"
             android:label="@string/tab_with_custom_layout" />
         <!--viewpage指示器-->
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>

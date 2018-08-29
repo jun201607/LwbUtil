@@ -20,7 +20,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 import android.annotation.SuppressLint;
+import android.support.annotation.Nullable;
 import android.util.Log;
+
+import demo.lwb.com.myutils.Utils.RxTool.RxConstants;
 
 /**TODO 通用时间类
  * @author Lemon
@@ -815,5 +818,37 @@ public class TimeUtil {
 				return -1;
 		}
 	}
-
+	/**
+	 * 获取当前日期时间 / 得到今天的日期
+	 * str yyyyMMddhhMMss 之类的
+	 *
+	 * @return
+	 */
+	@SuppressLint("SimpleDateFormat")
+	public static String getCurrentDateTime(String format) {
+		return simpleDateFormat(format, new Date());
+	}
+	/**
+	 * 将date转换成format格式的日期
+	 *
+	 * @param format 格式
+	 * @param date   日期
+	 * @return
+	 */
+	public static String simpleDateFormat(String format, Date date) {
+		if (isNullString(format)) {
+			format = RxConstants.DATE_FORMAT_DETACH_SSS;
+		}
+		String content = new SimpleDateFormat(format).format(date);
+		return content;
+	}
+	/**
+	 * 判断字符串是否为空 为空即true
+	 *
+	 * @param str 字符串
+	 * @return
+	 */
+	public static boolean isNullString(@Nullable String str) {
+		return str == null || str.length() == 0 || "null".equals(str);
+	}
 }

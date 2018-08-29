@@ -1,5 +1,6 @@
 package demo.lwb.com.myutils.Utils;
 
+import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Environment;
 
@@ -17,6 +18,8 @@ import java.util.UUID;
 
 import demo.lwb.com.myutils.Utils.retrofit.downFile.DownloadInfo;
 import okhttp3.ResponseBody;
+
+import static demo.lwb.com.myutils.Utils.camera.RxCrashTool.sdCardIsAvailable;
 
 /**
  * TODO 对文件的操作工具类
@@ -391,5 +394,32 @@ public final class FileUtils
 		if (randomAccessFile != null) {
 			randomAccessFile.close();
 		}
+	}
+
+	/**
+	 * 14得到SD卡根目录.
+	 */
+	public static File getRootPath() {
+		File path = null;
+		if (sdCardIsAvailable()) {
+			path = Environment.getExternalStorageDirectory(); // 取得sdcard文件路径
+		} else {
+			path = Environment.getDataDirectory();
+		}
+		return path;
+	}
+
+	/**
+	 * 15获取的目录默认没有最后的”/”,需要自己加上
+	 * 获取本应用图片缓存目录
+	 *
+	 * @return
+	 */
+	public static File getCacheFolder(Context context) {
+		File folder = new File(context.getCacheDir(), "IMAGECACHE");
+		if (!folder.exists()) {
+			folder.mkdir();
+		}
+		return folder;
 	}
 }
