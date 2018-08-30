@@ -53,6 +53,8 @@
         <item>OpenGl三角形</item>
         <item>OpenGl矩形</item>
         <item>网页WebView</item>
+        <item>常用Dialog</item>
+        <item>进度条</item>
     </string-array>
     <!--其他类列表-->
     <string-array name="OtherUtils">
@@ -66,5 +68,6 @@
         <item>Retrofit2Rxjava封装</item>
         <item>相机相册</item>
         <item>二维码生成及扫描</item>
+        <item>获取手机设备信息</item>
     </string-array>
 </resources>

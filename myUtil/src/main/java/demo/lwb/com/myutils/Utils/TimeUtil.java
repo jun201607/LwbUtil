@@ -58,6 +58,7 @@ import demo.lwb.com.myutils.Utils.RxTool.RxConstants;
  * 28、获取当前年份
  * 29、获取本月份的天数
  * 30、获取指定月份的天数
+ * 31/根据年 月 获取对应的月份 天数
  */
 public class TimeUtil {
 	private static final String TAG = "TimeUtil";
@@ -850,5 +851,18 @@ public class TimeUtil {
 	 */
 	public static boolean isNullString(@Nullable String str) {
 		return str == null || str.length() == 0 || "null".equals(str);
+	}
+
+	/**
+	 * 根据年 月 获取对应的月份 天数
+	 */
+	public static int getDaysByYearMonth(int year, int month) {
+		Calendar a = Calendar.getInstance();
+		a.set(Calendar.YEAR, year);
+		a.set(Calendar.MONTH, month - 1);
+		a.set(Calendar.DATE, 1);
+		a.roll(Calendar.DATE, -1);
+		int maxDate = a.get(Calendar.DATE);
+		return maxDate;
 	}
 }

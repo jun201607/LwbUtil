@@ -9,8 +9,8 @@
     <demo.lwb.com.myutils.wight.MatchView.MatchTextView
         android:id="@+id/tv_MatchTextView"
         match:text="aaa"
-        match:textSize="@dimen/standard_title"
-        match:textColor="@color/black"
+        match:textSize2="@dimen/standard_title"
+        match:textColor2="@color/black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

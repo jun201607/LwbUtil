@@ -15,23 +15,23 @@ import java.lang.Override;
 public class AgentWebFragment_ViewBinding implements Unbinder {
   private AgentWebFragment target;
 
-  private View view2131755269;
+  private View view2131755286;
 
   @UiThread
   public AgentWebFragment_ViewBinding(final AgentWebFragment target, View source) {
     this.target = target;
 
     View view;
-    target.llAgentview = Utils.findRequiredViewAsType(source, 2131755268, "field 'llAgentview'", LinearLayout.class);
-    view = Utils.findRequiredView(source, 2131755269, "field 'btnClear' and method 'onViewClicked'");
-    target.btnClear = Utils.castView(view, 2131755269, "field 'btnClear'", Button.class);
-    view2131755269 = view;
+    view = Utils.findRequiredView(source, 2131755286, "field 'btnClear' and method 'onViewClicked'");
+    target.btnClear = Utils.castView(view, 2131755286, "field 'btnClear'", Button.class);
+    view2131755286 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked();
       }
     });
+    target.llAgentview = Utils.findRequiredViewAsType(source, 2131755285, "field 'llAgentview'", LinearLayout.class);
   }
 
   @Override
@@ -41,10 +41,10 @@ public class AgentWebFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.llAgentview = null;
     target.btnClear = null;
+    target.llAgentview = null;
 
-    view2131755269.setOnClickListener(null);
-    view2131755269 = null;
+    view2131755286.setOnClickListener(null);
+    view2131755286 = null;
   }
 }

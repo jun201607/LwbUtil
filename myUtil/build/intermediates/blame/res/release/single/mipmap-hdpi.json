@@ -16,12 +16,12 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\delete_light.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\back.png",
-        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\back.png"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\back2.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\back2.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\back.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\back.png"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\look.png",
@@ -44,20 +44,20 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\mail.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\setting_light.png",
-        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\setting_light.png"
-    },
-    {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\add_small.png",
-        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\add_small.png"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\mail_light.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\mail_light.png"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\earth_light.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\earth_light.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\mail_light.png",
-        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\mail_light.png"
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\add_small.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\add_small.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\setting_light.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-hdpi\\setting_light.png"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi\\down2_light.png",

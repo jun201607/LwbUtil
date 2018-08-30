@@ -122,6 +122,15 @@ public class HomeTab1Presenter extends BasePresenter{
                    case FramentManages.QR_Code:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.QR_Code, bundle));
                        break;
+                   case FramentManages.Dialog:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.Dialog, bundle));
+                       break;
+                   case FramentManages.PhotoDevice:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.PhotoDevice, bundle));
+                       break;
+                   case FramentManages.ProgressBar:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.ProgressBar, bundle));
+                       break;
                    default:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.UtilsDetail, bundle));
                        break;

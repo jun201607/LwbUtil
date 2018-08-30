@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\coin.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\coin.png"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\transparent_bg.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\transparent_bg.png"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\img_view.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\img_view.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\sign_check_30.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\sign_check_30.png"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\s_img.png",
@@ -28,16 +36,20 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\img_util.png"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\logo.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\img_user.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\img_user.png"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\kakalib_scan_ray.png",
-        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\kakalib_scan_ray.png"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\circle.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\circle.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\kakalib_scan_ray.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\kakalib_scan_ray.png"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\s_light.png",
@@ -54,6 +66,10 @@
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\linecode_icon.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\linecode_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\sign_ban_30.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xxhdpi\\sign_ban_30.png"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi\\s_left_jiantou.png",

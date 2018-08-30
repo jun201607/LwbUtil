@@ -20,10 +20,10 @@ public class Local_VideoFragment_ViewBinding implements Unbinder {
   public Local_VideoFragment_ViewBinding(Local_VideoFragment target, View source) {
     this.target = target;
 
-    target.recyclerView = Utils.findRequiredViewAsType(source, 2131755284, "field 'recyclerView'", RecyclerView.class);
-    target.llLocalProgress = Utils.findRequiredViewAsType(source, 2131755295, "field 'llLocalProgress'", LinearLayout.class);
-    target.smartRefreshLayout = Utils.findRequiredViewAsType(source, 2131755351, "field 'smartRefreshLayout'", SmartRefreshLayout.class);
-    target.tvLocalTip = Utils.findRequiredViewAsType(source, 2131755294, "field 'tvLocalTip'", TextView.class);
+    target.recyclerView = Utils.findRequiredViewAsType(source, 2131755301, "field 'recyclerView'", RecyclerView.class);
+    target.tvLocalTip = Utils.findRequiredViewAsType(source, 2131755321, "field 'tvLocalTip'", TextView.class);
+    target.llLocalProgress = Utils.findRequiredViewAsType(source, 2131755322, "field 'llLocalProgress'", LinearLayout.class);
+    target.smartRefreshLayout = Utils.findRequiredViewAsType(source, 2131755436, "field 'smartRefreshLayout'", SmartRefreshLayout.class);
   }
 
   @Override
@@ -34,8 +34,8 @@ public class Local_VideoFragment_ViewBinding implements Unbinder {
     this.target = null;
 
     target.recyclerView = null;
+    target.tvLocalTip = null;
     target.llLocalProgress = null;
     target.smartRefreshLayout = null;
-    target.tvLocalTip = null;
   }
 }

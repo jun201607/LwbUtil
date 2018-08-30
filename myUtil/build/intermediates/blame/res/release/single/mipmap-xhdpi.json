@@ -16,6 +16,10 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xhdpi\\ic_clear_white_48dp.png"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\set.png",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xhdpi\\set.png"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi\\gdt_splash_logo.png",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\mipmap-xhdpi\\gdt_splash_logo.png"
     },

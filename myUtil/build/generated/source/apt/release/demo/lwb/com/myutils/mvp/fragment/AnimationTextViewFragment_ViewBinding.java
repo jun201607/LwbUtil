@@ -19,10 +19,10 @@ public class AnimationTextViewFragment_ViewBinding implements Unbinder {
   public AnimationTextViewFragment_ViewBinding(AnimationTextViewFragment target, View source) {
     this.target = target;
 
-    target.tvMatchButton = Utils.findRequiredViewAsType(source, 2131755276, "field 'tvMatchButton'", MatchButton.class);
-    target.tv_button = Utils.findRequiredViewAsType(source, 2131755277, "field 'tv_button'", Button.class);
-    target.tv_button1 = Utils.findRequiredViewAsType(source, 2131755278, "field 'tv_button1'", Button.class);
-    target.tvMatchTextView = Utils.findRequiredViewAsType(source, 2131755275, "field 'tvMatchTextView'", MatchTextView.class);
+    target.tvMatchTextView = Utils.findRequiredViewAsType(source, 2131755292, "field 'tvMatchTextView'", MatchTextView.class);
+    target.tv_button = Utils.findRequiredViewAsType(source, 2131755294, "field 'tv_button'", Button.class);
+    target.tv_button1 = Utils.findRequiredViewAsType(source, 2131755295, "field 'tv_button1'", Button.class);
+    target.tvMatchButton = Utils.findRequiredViewAsType(source, 2131755293, "field 'tvMatchButton'", MatchButton.class);
   }
 
   @Override
@@ -32,9 +32,9 @@ public class AnimationTextViewFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.tvMatchButton = null;
+    target.tvMatchTextView = null;
     target.tv_button = null;
     target.tv_button1 = null;
-    target.tvMatchTextView = null;
+    target.tvMatchButton = null;
   }
 }

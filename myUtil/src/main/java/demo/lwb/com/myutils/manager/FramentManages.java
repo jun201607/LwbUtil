@@ -16,6 +16,7 @@ import demo.lwb.com.myutils.mvp.fragment.AnimationTextViewFragment;
 import demo.lwb.com.myutils.mvp.fragment.BottomNavigationBarFragment;
 import demo.lwb.com.myutils.mvp.fragment.CameraAlbumFragment;
 import demo.lwb.com.myutils.mvp.fragment.CardViewFragment;
+import demo.lwb.com.myutils.mvp.fragment.Common_DialogFragment;
 import demo.lwb.com.myutils.mvp.fragment.DownloadFragment;
 import demo.lwb.com.myutils.mvp.fragment.DrawerLayoutFragment;
 import demo.lwb.com.myutils.mvp.fragment.EventBusFragment;
@@ -30,6 +31,8 @@ import demo.lwb.com.myutils.mvp.fragment.MessengerFragment;
 import demo.lwb.com.myutils.mvp.fragment.MyFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_SquareFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_TriangleFragment;
+import demo.lwb.com.myutils.mvp.fragment.PhotoDeviceFragment;
+import demo.lwb.com.myutils.mvp.fragment.ProgressBarFragment;
 import demo.lwb.com.myutils.mvp.fragment.QR_CodeFragment;
 import demo.lwb.com.myutils.mvp.fragment.Retrofit2RxjavaFragment;
 import demo.lwb.com.myutils.mvp.fragment.Scan_CodeFragment;
@@ -80,6 +83,9 @@ public class FramentManages
 	public final static String CameraAlbum="相机相册";
 	public final static String QR_Code="二维码生成及扫描";
 	public final static String Scan_Code="扫描二维码";
+	public final static String Dialog="常用Dialog";
+	public final static String PhotoDevice="获取手机设备信息";
+	public final static String ProgressBar="进度条";
 
 	/**
 	 * 这个在Fragment中不能new出来,只能在Activity中new，每个Activity对应一个List_fragment来管理
@@ -152,6 +158,12 @@ public class FramentManages
 				return new QR_CodeFragment();
 			case FramentManages.Scan_Code:
 				return new Scan_CodeFragment();
+			case FramentManages.Dialog:
+				return new Common_DialogFragment();
+			case FramentManages.PhotoDevice:
+				return new PhotoDeviceFragment();
+			case FramentManages.ProgressBar:
+				return new ProgressBarFragment();
 		}
 	}
 

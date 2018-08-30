@@ -18,8 +18,8 @@ public class BottomNavigationBarFragment_ViewBinding implements Unbinder {
   public BottomNavigationBarFragment_ViewBinding(BottomNavigationBarFragment target, View source) {
     this.target = target;
 
-    target.bottomNavigationBar = Utils.findRequiredViewAsType(source, 2131755279, "field 'bottomNavigationBar'", BottomNavigationBar.class);
-    target.bottomNavigationView = Utils.findRequiredViewAsType(source, 2131755280, "field 'bottomNavigationView'", BottomNavigationView.class);
+    target.bottomNavigationBar = Utils.findRequiredViewAsType(source, 2131755296, "field 'bottomNavigationBar'", BottomNavigationBar.class);
+    target.bottomNavigationView = Utils.findRequiredViewAsType(source, 2131755297, "field 'bottomNavigationView'", BottomNavigationView.class);
   }
 
   @Override

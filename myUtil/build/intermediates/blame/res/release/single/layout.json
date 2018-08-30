@@ -84,12 +84,12 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\dialog_scaleview.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\simple_red_dot_badge_layout.xml",
-        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\simple_red_dot_badge_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\71a174e17217fd88236b24d48f656c0c57e8e93c\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\simple_red_dot_badge_layout.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\simple_red_dot_badge_layout.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\design_layout_snackbar.xml",
@@ -140,8 +140,16 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\0edb5fc95f3419063f091ad08bff0ae1414861fb\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\fragment_dialog.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\fragment_dialog.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\0edb5fc95f3419063f091ad08bff0ae1414861fb\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_shape_loading_view.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\dialog_shape_loading_view.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\fragment_toolbar.xml",
@@ -164,8 +172,24 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\layout\\list_item_image.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_loading_progress_acfun_video.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\dialog_loading_progress_acfun_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\fragment_photo_device.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\fragment_photo_device.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_year_month_day.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\dialog_year_month_day.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\ucrop_layout_rotate_wheel.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\04a1ca7323ec7f77944313f3e7a8bcc74d6db3aa\\output\\res\\layout\\ucrop_layout_rotate_wheel.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\layout_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\layout_round_corner_progress_bar.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
@@ -216,6 +240,10 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\multi-image-selector\\build\\intermediates\\bundles\\default\\res\\layout\\list_item_folder.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\layout_text_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\layout_text_round_corner_progress_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\9311d90b13abdce8c515237b85f43b113d84f931\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
@@ -246,6 +274,14 @@
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\simple_pager_title_layout.xml",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\simple_pager_title_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\image.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\image.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\layout_icon_round_corner_progress_bar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\layout_icon_round_corner_progress_bar.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\activity_default.xml",
@@ -400,6 +436,10 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\0edb5fc95f3419063f091ad08bff0ae1414861fb\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\fragment_progress_bar.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\fragment_progress_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\71a174e17217fd88236b24d48f656c0c57e8e93c\\output\\res\\layout\\notification_template_icon_group.xml"
     },
@@ -436,6 +476,10 @@
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\activity_custom_navigator_example_layout.xml"
     },
     {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_loading_spinkit.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\dialog_loading_spinkit.xml"
+    },
+    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\demo_activity.xml",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\demo_activity.xml"
     },
@@ -462,6 +506,10 @@
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\fragment_magicindicator.xml",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\fragment_magicindicator.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_shape_loading_view1.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\dialog_shape_loading_view1.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\fragment_home_tab1.xml",
@@ -500,12 +548,12 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\9311d90b13abdce8c515237b85f43b113d84f931\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\0edb5fc95f3419063f091ad08bff0ae1414861fb\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\pager_navigator_layout_no_scroll.xml",
         "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\magicindicator\\build\\intermediates\\bundles\\default\\res\\layout\\pager_navigator_layout_no_scroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\0edb5fc95f3419063f091ad08bff0ae1414861fb\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\fragment_page.xml",
@@ -522,6 +570,10 @@
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\design_menu_item_action_area.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\0edb5fc95f3419063f091ad08bff0ae1414861fb\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\dialog_edittext_sure_false.xml",
+        "source": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\src\\main\\res\\layout\\dialog_edittext_sure_false.xml"
     },
     {
         "merged": "C:\\Users\\admin\\Desktop\\LwbUtils-master\\myUtil\\build\\intermediates\\res\\merged\\release\\layout\\bottom_navigation_bar_container.xml",

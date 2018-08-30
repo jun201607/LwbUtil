@@ -38,6 +38,10 @@ import java.util.regex.Pattern;
  * 8、获取string,为null时返回
  * 9、获取刚传入处理后的string
  * 10、检查字符串长度，如果字符串的长度超过maxLength，就截取前maxLength个字符串并在末尾拼上…
+ * 11、判断字符串是否为空
+ * 12、将字符串格式化为带两位小数的字符串
+ * 13、字符串转换成double
+ * 14、字符串转换成整数
  */
 public class StringUtil {
 	private static final String TAG = "StringUtil";
@@ -73,6 +77,7 @@ public class StringUtil {
 
 
 	private static String currentString = "";
+
 	/**TODO 获取刚传入处理后的string
 	 * @return
 	 */
@@ -660,5 +665,56 @@ public class StringUtil {
 	 */
 	public static boolean isNullString(@Nullable String str) {
 		return str == null || str.length() == 0 || "null".equals(str);
+	}
+
+
+	/**
+	 * 将字符串格式化为带两位小数的字符串
+	 *
+	 * @param str 字符串
+	 * @return
+	 */
+	public static String format2Decimals(String str) {
+		DecimalFormat df = new DecimalFormat("#.00");
+		if (df.format(stringToDouble(str)).startsWith(".")) {
+			return "0" + df.format(stringToDouble(str));
+		} else {
+			return df.format(stringToDouble(str));
+		}
+	}
+
+	/**
+	 * 字符串转换成double ,转换失败将会 return 0;
+	 *
+	 * @param str 字符串
+	 * @return
+	 */
+	public static double stringToDouble(String str) {
+		if (isNullString(str)) {
+			return 0;
+		} else {
+			try {
+				return Double.parseDouble(str);
+			} catch (NumberFormatException e) {
+				return 0;
+			}
+		}
+	}
+	/**
+	 * 字符串转换成整数 ,转换失败将会 return 0;
+	 *
+	 * @param str 字符串
+	 * @return
+	 */
+	public static int stringToInt(String str) {
+		if (isNullString(str)) {
+			return 0;
+		} else {
+			try {
+				return Integer.parseInt(str);
+			} catch (NumberFormatException e) {
+				return 0;
+			}
+		}
 	}
 }

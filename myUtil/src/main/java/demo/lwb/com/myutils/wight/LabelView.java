@@ -75,7 +75,7 @@ public class LabelView extends View {
         mTextColor=ta.getColor(R.styleable.LabelTextView_textColor, Color.WHITE);
         mNumColor=ta.getColor(R.styleable.LabelTextView_numColor, Color.WHITE);
 
-        mTextSize=ta.getDimension(R.styleable.LabelTextView_textSize,sp2px(8));
+        mTextSize=ta.getDimension(R.styleable.LabelTextView_textSize3,sp2px(8));
         mNumSize=ta.getDimension(R.styleable.LabelTextView_numSize,sp2px(11));
 
         mText=ta.getString(R.styleable.LabelTextView_text);

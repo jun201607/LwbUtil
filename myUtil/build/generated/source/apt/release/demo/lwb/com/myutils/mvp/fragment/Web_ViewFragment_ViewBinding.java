@@ -16,24 +16,24 @@ import java.lang.Override;
 public class Web_ViewFragment_ViewBinding implements Unbinder {
   private Web_ViewFragment target;
 
-  private View view2131755355;
+  private View view2131755440;
 
   @UiThread
   public Web_ViewFragment_ViewBinding(final Web_ViewFragment target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, 2131755355, "field 'btnClick' and method 'onViewClicked'");
-    target.btnClick = Utils.castView(view, 2131755355, "field 'btnClick'", Button.class);
-    view2131755355 = view;
+    target.wvWebview = Utils.findRequiredViewAsType(source, 2131755442, "field 'wvWebview'", WebView.class);
+    view = Utils.findRequiredView(source, 2131755440, "field 'btnClick' and method 'onViewClicked'");
+    target.btnClick = Utils.castView(view, 2131755440, "field 'btnClick'", Button.class);
+    view2131755440 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked();
       }
     });
-    target.wvWebview = Utils.findRequiredViewAsType(source, 2131755357, "field 'wvWebview'", WebView.class);
-    target.etWebviewSelset = Utils.findRequiredViewAsType(source, 2131755356, "field 'etWebviewSelset'", EditText.class);
+    target.etWebviewSelset = Utils.findRequiredViewAsType(source, 2131755441, "field 'etWebviewSelset'", EditText.class);
   }
 
   @Override
@@ -43,11 +43,11 @@ public class Web_ViewFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.btnClick = null;
     target.wvWebview = null;
+    target.btnClick = null;
     target.etWebviewSelset = null;
 
-    view2131755355.setOnClickListener(null);
-    view2131755355 = null;
+    view2131755440.setOnClickListener(null);
+    view2131755440 = null;
   }
 }

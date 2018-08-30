@@ -36,8 +36,8 @@ public class MatchTextView extends MatchView {
 
     void initAttrs(AttributeSet attrs) {
         TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.MatchTextView);
-        mTextSize = a.getDimension(R.styleable.MatchTextView_textSize, 25);
-        mTextColor = a.getColor(R.styleable.MatchTextView_textColor, Color.WHITE);
+        mTextSize = a.getDimension(R.styleable.MatchTextView_textSize2, 25);
+        mTextColor = a.getColor(R.styleable.MatchTextView_textColor2, Color.WHITE);
         mContent = a.getString(R.styleable.MatchTextView_text);
         init();
     }

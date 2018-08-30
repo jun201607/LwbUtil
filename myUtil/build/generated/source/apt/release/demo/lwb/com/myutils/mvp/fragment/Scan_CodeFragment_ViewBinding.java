@@ -16,39 +16,39 @@ import java.lang.Override;
 public class Scan_CodeFragment_ViewBinding implements Unbinder {
   private Scan_CodeFragment target;
 
-  private View view2131755341;
+  private View view2131755426;
 
-  private View view2131755342;
+  private View view2131755427;
 
-  private View view2131755343;
+  private View view2131755428;
 
   @UiThread
   public Scan_CodeFragment_ViewBinding(final Scan_CodeFragment target, View source) {
     this.target = target;
 
     View view;
-    target.mCropLayout = Utils.findRequiredViewAsType(source, 2131755344, "field 'mCropLayout'", RelativeLayout.class);
-    target.mQrLineView = Utils.findRequiredViewAsType(source, 2131755345, "field 'mQrLineView'", ImageView.class);
-    target.surfaceView = Utils.findRequiredViewAsType(source, 2131755339, "field 'surfaceView'", SurfaceView.class);
-    target.mContainer = Utils.findRequiredViewAsType(source, 2131755338, "field 'mContainer'", RelativeLayout.class);
-    view = Utils.findRequiredView(source, 2131755341, "method 'onViewClicked'");
-    view2131755341 = view;
+    target.mCropLayout = Utils.findRequiredViewAsType(source, 2131755429, "field 'mCropLayout'", RelativeLayout.class);
+    target.mQrLineView = Utils.findRequiredViewAsType(source, 2131755430, "field 'mQrLineView'", ImageView.class);
+    target.mContainer = Utils.findRequiredViewAsType(source, 2131755423, "field 'mContainer'", RelativeLayout.class);
+    target.surfaceView = Utils.findRequiredViewAsType(source, 2131755424, "field 'surfaceView'", SurfaceView.class);
+    view = Utils.findRequiredView(source, 2131755426, "method 'onViewClicked'");
+    view2131755426 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked(p0);
       }
     });
-    view = Utils.findRequiredView(source, 2131755342, "method 'onViewClicked'");
-    view2131755342 = view;
+    view = Utils.findRequiredView(source, 2131755427, "method 'onViewClicked'");
+    view2131755427 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked(p0);
       }
     });
-    view = Utils.findRequiredView(source, 2131755343, "method 'onViewClicked'");
-    view2131755343 = view;
+    view = Utils.findRequiredView(source, 2131755428, "method 'onViewClicked'");
+    view2131755428 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -66,14 +66,14 @@ public class Scan_CodeFragment_ViewBinding implements Unbinder {
 
     target.mCropLayout = null;
     target.mQrLineView = null;
-    target.surfaceView = null;
     target.mContainer = null;
+    target.surfaceView = null;
 
-    view2131755341.setOnClickListener(null);
-    view2131755341 = null;
-    view2131755342.setOnClickListener(null);
-    view2131755342 = null;
-    view2131755343.setOnClickListener(null);
-    view2131755343 = null;
+    view2131755426.setOnClickListener(null);
+    view2131755426 = null;
+    view2131755427.setOnClickListener(null);
+    view2131755427 = null;
+    view2131755428.setOnClickListener(null);
+    view2131755428 = null;
   }
 }

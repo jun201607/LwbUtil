@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.os.Environment;
 
+import java.io.Closeable;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -421,5 +422,25 @@ public final class FileUtils
 			folder.mkdir();
 		}
 		return folder;
+	}
+
+	/**
+	 * 关闭IO
+	 *
+	 * @param closeables closeable
+	 */
+	public static void closeIO(Closeable... closeables) {
+		if (closeables == null) {
+			return;
+		}
+		try {
+			for (Closeable closeable : closeables) {
+				if (closeable != null) {
+					closeable.close();
+				}
+			}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
