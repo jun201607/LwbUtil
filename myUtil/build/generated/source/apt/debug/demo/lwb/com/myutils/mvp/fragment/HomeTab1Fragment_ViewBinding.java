@@ -17,7 +17,7 @@ public class HomeTab1Fragment_ViewBinding implements Unbinder {
   public HomeTab1Fragment_ViewBinding(HomeTab1Fragment target, View source) {
     this.target = target;
 
-    target.recyclerView = Utils.findRequiredViewAsType(source, 2131755301, "field 'recyclerView'", RecyclerView.class);
+    target.recyclerView = Utils.findRequiredViewAsType(source, 2131755305, "field 'recyclerView'", RecyclerView.class);
   }
 
   @Override

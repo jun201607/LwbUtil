@@ -56,6 +56,8 @@
         <item>常用Dialog</item>
         <item>进度条</item>
         <item>蛛网等级及颜色选取</item>
+        <item>RxToast</item>
+        <item>RunTextView</item>
     </string-array>
     <!--其他类列表-->
     <string-array name="OtherUtils">

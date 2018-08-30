@@ -94,4 +94,8 @@
     <color name="custom_progress_purple_header">#ffaa66cc</color>
     <color name="blue_baby">#89CFF0</color>
     <color name="green_xiaomi">#52BA97</color>
+
+    <color name="pink_acfun">#FD4C5B</color><!-- Acfun主题色 -->
+    <color name="green_388e3c">#388E3C</color>
+    <color name="WARNING_COLOR">#FFA900</color>
 </resources>

@@ -17,7 +17,7 @@ public class TitanicFragment_ViewBinding implements Unbinder {
   public TitanicFragment_ViewBinding(TitanicFragment target, View source) {
     this.target = target;
 
-    target.TitanicTextView = Utils.findRequiredViewAsType(source, 2131755438, "field 'TitanicTextView'", TitanicTextView.class);
+    target.TitanicTextView = Utils.findRequiredViewAsType(source, 2131755460, "field 'TitanicTextView'", TitanicTextView.class);
   }
 
   @Override

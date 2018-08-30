@@ -83,11 +83,6 @@ public class Color_SpiderFragment extends BaseFragment implements SeekBar.OnSeek
 
     @Override
     public void initListener() {
-
-    }
-
-    @Override
-    public void popBackListener(int returnCode, Bundle bundle) {
         colorPickerView.addOnColorChangedListener(new OnColorChangedListener() {
             @Override
             public void onColorChanged(int selectedColor) {
@@ -107,6 +102,11 @@ public class Color_SpiderFragment extends BaseFragment implements SeekBar.OnSeek
                 cobwebView.setSpiderLevelColor(selectedColor);
             }
         });
+    }
+
+    @Override
+    public void popBackListener(int returnCode, Bundle bundle) {
+
     }
 
     @Override

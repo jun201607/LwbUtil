@@ -17,7 +17,7 @@ public class JellyViewPagerFragment_ViewBinding implements Unbinder {
   public JellyViewPagerFragment_ViewBinding(JellyViewPagerFragment target, View source) {
     this.target = target;
 
-    target.jellyViewPager = Utils.findRequiredViewAsType(source, 2131755320, "field 'jellyViewPager'", JellyViewPager.class);
+    target.jellyViewPager = Utils.findRequiredViewAsType(source, 2131755333, "field 'jellyViewPager'", JellyViewPager.class);
   }
 
   @Override

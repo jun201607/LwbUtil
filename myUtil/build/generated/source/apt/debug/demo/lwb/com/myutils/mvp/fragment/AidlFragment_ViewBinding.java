@@ -16,30 +16,30 @@ import java.lang.Override;
 public class AidlFragment_ViewBinding implements Unbinder {
   private AidlFragment target;
 
-  private View view2131755290;
+  private View view2131755294;
 
-  private View view2131755291;
+  private View view2131755295;
 
   @UiThread
   public AidlFragment_ViewBinding(final AidlFragment target, View source) {
     this.target = target;
 
     View view;
-    target.etNumber = Utils.findRequiredViewAsType(source, 2131755287, "field 'etNumber'", EditText.class);
-    target.llContent = Utils.findRequiredViewAsType(source, 2131755288, "field 'llContent'", LinearLayout.class);
-    view = Utils.findRequiredView(source, 2131755290, "field 'btnAdd' and method 'onViewClicked'");
-    target.btnAdd = Utils.castView(view, 2131755290, "field 'btnAdd'", Button.class);
-    view2131755290 = view;
+    target.etNumber = Utils.findRequiredViewAsType(source, 2131755291, "field 'etNumber'", EditText.class);
+    view = Utils.findRequiredView(source, 2131755294, "field 'btnAdd' and method 'onViewClicked'");
+    target.btnAdd = Utils.castView(view, 2131755294, "field 'btnAdd'", Button.class);
+    view2131755294 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked(p0);
       }
     });
-    target.etBookName = Utils.findRequiredViewAsType(source, 2131755289, "field 'etBookName'", EditText.class);
-    view = Utils.findRequiredView(source, 2131755291, "field 'llAdd' and method 'onViewClicked'");
-    target.llAdd = Utils.castView(view, 2131755291, "field 'llAdd'", LinearLayout.class);
-    view2131755291 = view;
+    target.etBookName = Utils.findRequiredViewAsType(source, 2131755293, "field 'etBookName'", EditText.class);
+    target.llContent = Utils.findRequiredViewAsType(source, 2131755292, "field 'llContent'", LinearLayout.class);
+    view = Utils.findRequiredView(source, 2131755295, "field 'llAdd' and method 'onViewClicked'");
+    target.llAdd = Utils.castView(view, 2131755295, "field 'llAdd'", LinearLayout.class);
+    view2131755295 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -56,14 +56,14 @@ public class AidlFragment_ViewBinding implements Unbinder {
     this.target = null;
 
     target.etNumber = null;
-    target.llContent = null;
     target.btnAdd = null;
     target.etBookName = null;
+    target.llContent = null;
     target.llAdd = null;
 
-    view2131755290.setOnClickListener(null);
-    view2131755290 = null;
-    view2131755291.setOnClickListener(null);
-    view2131755291 = null;
+    view2131755294.setOnClickListener(null);
+    view2131755294 = null;
+    view2131755295.setOnClickListener(null);
+    view2131755295 = null;
   }
 }

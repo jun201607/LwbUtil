@@ -17,7 +17,7 @@ public class OpenGl_SquareFragment_ViewBinding implements Unbinder {
   public OpenGl_SquareFragment_ViewBinding(OpenGl_SquareFragment target, View source) {
     this.target = target;
 
-    target.gl_surface_square = Utils.findRequiredViewAsType(source, 2131755342, "field 'gl_surface_square'", GLSurfaceView.class);
+    target.gl_surface_square = Utils.findRequiredViewAsType(source, 2131755355, "field 'gl_surface_square'", GLSurfaceView.class);
   }
 
   @Override

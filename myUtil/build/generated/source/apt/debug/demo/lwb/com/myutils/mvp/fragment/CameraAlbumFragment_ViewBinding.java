@@ -15,38 +15,38 @@ import java.lang.Override;
 public class CameraAlbumFragment_ViewBinding implements Unbinder {
   private CameraAlbumFragment target;
 
-  private View view2131755298;
+  private View view2131755304;
 
-  private View view2131755300;
+  private View view2131755302;
 
-  private View view2131755299;
+  private View view2131755303;
 
   @UiThread
   public CameraAlbumFragment_ViewBinding(final CameraAlbumFragment target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, 2131755298, "field 'btnCamera' and method 'onViewClicked'");
-    target.btnCamera = Utils.castView(view, 2131755298, "field 'btnCamera'", Button.class);
-    view2131755298 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onViewClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, 2131755300, "field 'imgShow' and method 'onViewClicked'");
-    target.imgShow = Utils.castView(view, 2131755300, "field 'imgShow'", ImageView.class);
-    view2131755300 = view;
+    view = Utils.findRequiredView(source, 2131755304, "field 'imgShow' and method 'onViewClicked'");
+    target.imgShow = Utils.castView(view, 2131755304, "field 'imgShow'", ImageView.class);
+    view2131755304 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked();
       }
     });
-    view = Utils.findRequiredView(source, 2131755299, "field 'btnPhotoAlbum' and method 'onViewClicked'");
-    target.btnPhotoAlbum = Utils.castView(view, 2131755299, "field 'btnPhotoAlbum'", Button.class);
-    view2131755299 = view;
+    view = Utils.findRequiredView(source, 2131755302, "field 'btnCamera' and method 'onViewClicked'");
+    target.btnCamera = Utils.castView(view, 2131755302, "field 'btnCamera'", Button.class);
+    view2131755302 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, 2131755303, "field 'btnPhotoAlbum' and method 'onViewClicked'");
+    target.btnPhotoAlbum = Utils.castView(view, 2131755303, "field 'btnPhotoAlbum'", Button.class);
+    view2131755303 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -62,15 +62,15 @@ public class CameraAlbumFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.btnCamera = null;
     target.imgShow = null;
+    target.btnCamera = null;
     target.btnPhotoAlbum = null;
 
-    view2131755298.setOnClickListener(null);
-    view2131755298 = null;
-    view2131755300.setOnClickListener(null);
-    view2131755300 = null;
-    view2131755299.setOnClickListener(null);
-    view2131755299 = null;
+    view2131755304.setOnClickListener(null);
+    view2131755304 = null;
+    view2131755302.setOnClickListener(null);
+    view2131755302 = null;
+    view2131755303.setOnClickListener(null);
+    view2131755303 = null;
   }
 }

@@ -13,10 +13,6 @@ import java.lang.Override;
 public class MagicindicatorFragment_ViewBinding implements Unbinder {
   private MagicindicatorFragment target;
 
-  private View view2131755189;
-
-  private View view2131755190;
-
   private View view2131755191;
 
   private View view2131755192;
@@ -29,27 +25,15 @@ public class MagicindicatorFragment_ViewBinding implements Unbinder {
 
   private View view2131755196;
 
+  private View view2131755197;
+
+  private View view2131755198;
+
   @UiThread
   public MagicindicatorFragment_ViewBinding(final MagicindicatorFragment target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, 2131755189, "method 'onViewClicked'");
-    view2131755189 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onViewClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, 2131755190, "method 'onViewClicked'");
-    view2131755190 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onViewClicked(p0);
-      }
-    });
     view = Utils.findRequiredView(source, 2131755191, "method 'onViewClicked'");
     view2131755191 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
@@ -98,6 +82,22 @@ public class MagicindicatorFragment_ViewBinding implements Unbinder {
         target.onViewClicked(p0);
       }
     });
+    view = Utils.findRequiredView(source, 2131755197, "method 'onViewClicked'");
+    view2131755197 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, 2131755198, "method 'onViewClicked'");
+    view2131755198 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
   }
 
   @Override
@@ -107,10 +107,6 @@ public class MagicindicatorFragment_ViewBinding implements Unbinder {
     target = null;
 
 
-    view2131755189.setOnClickListener(null);
-    view2131755189 = null;
-    view2131755190.setOnClickListener(null);
-    view2131755190 = null;
     view2131755191.setOnClickListener(null);
     view2131755191 = null;
     view2131755192.setOnClickListener(null);
@@ -123,5 +119,9 @@ public class MagicindicatorFragment_ViewBinding implements Unbinder {
     view2131755195 = null;
     view2131755196.setOnClickListener(null);
     view2131755196 = null;
+    view2131755197.setOnClickListener(null);
+    view2131755197 = null;
+    view2131755198.setOnClickListener(null);
+    view2131755198 = null;
   }
 }

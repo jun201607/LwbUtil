@@ -15,17 +15,17 @@ import java.lang.Override;
 public class DrawerLayoutFragment_ViewBinding implements Unbinder {
   private DrawerLayoutFragment target;
 
-  private View view2131755312;
+  private View view2131755325;
 
   @UiThread
   public DrawerLayoutFragment_ViewBinding(final DrawerLayoutFragment target, View source) {
     this.target = target;
 
     View view;
-    target.drawerLayout = Utils.findRequiredViewAsType(source, 2131755315, "field 'drawerLayout'", DrawerLayout.class);
-    view = Utils.findRequiredView(source, 2131755312, "field 'btnStart' and method 'onViewClicked'");
-    target.btnStart = Utils.castView(view, 2131755312, "field 'btnStart'", Button.class);
-    view2131755312 = view;
+    target.drawerLayout = Utils.findRequiredViewAsType(source, 2131755328, "field 'drawerLayout'", DrawerLayout.class);
+    view = Utils.findRequiredView(source, 2131755325, "field 'btnStart' and method 'onViewClicked'");
+    target.btnStart = Utils.castView(view, 2131755325, "field 'btnStart'", Button.class);
+    view2131755325 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,7 +44,7 @@ public class DrawerLayoutFragment_ViewBinding implements Unbinder {
     target.drawerLayout = null;
     target.btnStart = null;
 
-    view2131755312.setOnClickListener(null);
-    view2131755312 = null;
+    view2131755325.setOnClickListener(null);
+    view2131755325 = null;
   }
 }

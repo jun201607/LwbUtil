@@ -17,7 +17,7 @@ public class OpenGl_TriangleFragment_ViewBinding implements Unbinder {
   public OpenGl_TriangleFragment_ViewBinding(OpenGl_TriangleFragment target, View source) {
     this.target = target;
 
-    target.glSurfaceView = Utils.findRequiredViewAsType(source, 2131755343, "field 'glSurfaceView'", GLSurfaceView.class);
+    target.glSurfaceView = Utils.findRequiredViewAsType(source, 2131755356, "field 'glSurfaceView'", GLSurfaceView.class);
   }
 
   @Override

@@ -22,6 +22,7 @@ import demo.lwb.com.myutils.Utils.dialog.RxDialogShapeLoading;
 import demo.lwb.com.myutils.Utils.dialog.RxDialogSure;
 import demo.lwb.com.myutils.Utils.dialog.RxDialogSureCancel;
 import demo.lwb.com.myutils.Utils.dialog.RxDialogWheelYearMonthDay;
+import demo.lwb.com.myutils.base.BaseApplication;
 import demo.lwb.com.myutils.base.BaseFragment;
 import demo.lwb.com.myutils.mvp.presenter.BasePresenter;
 

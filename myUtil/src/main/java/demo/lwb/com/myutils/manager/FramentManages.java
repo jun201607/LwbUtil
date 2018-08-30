@@ -36,6 +36,8 @@ import demo.lwb.com.myutils.mvp.fragment.PhotoDeviceFragment;
 import demo.lwb.com.myutils.mvp.fragment.ProgressBarFragment;
 import demo.lwb.com.myutils.mvp.fragment.QR_CodeFragment;
 import demo.lwb.com.myutils.mvp.fragment.Retrofit2RxjavaFragment;
+import demo.lwb.com.myutils.mvp.fragment.RunTextViewFragment;
+import demo.lwb.com.myutils.mvp.fragment.RxToastFragment;
 import demo.lwb.com.myutils.mvp.fragment.Scan_CodeFragment;
 import demo.lwb.com.myutils.mvp.fragment.SmartRefreshLayoutFragment;
 import demo.lwb.com.myutils.mvp.fragment.SwipeCardFragment;
@@ -88,6 +90,8 @@ public class FramentManages
 	public final static String PhotoDevice="获取手机设备信息";
 	public final static String ProgressBar="进度条";
 	public final static String Color_Spider="蛛网等级及颜色选取";
+	public final static String RxToast="RxToast";
+	public final static String RunTextView="RunTextView";
 
 	/**
 	 * 这个在Fragment中不能new出来,只能在Activity中new，每个Activity对应一个List_fragment来管理
@@ -168,6 +172,10 @@ public class FramentManages
 				return new ProgressBarFragment();
 			case FramentManages.Color_Spider:
 				return new Color_SpiderFragment();
+			case FramentManages.RxToast:
+				return new RxToastFragment();
+			case FramentManages.RunTextView:
+				return new RunTextViewFragment();
 		}
 	}
 

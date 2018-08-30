@@ -8,9 +8,9 @@ package com.just.agentweb.download;
 
 public final class R {
     public static final class color {
-        public static final int black = 0x7f0e0011;
-        public static final int select_color = 0x7f0e008d;
-        public static final int white = 0x7f0e00a9;
+        public static final int black = 0x7f0e0012;
+        public static final int select_color = 0x7f0e0091;
+        public static final int white = 0x7f0e00ae;
     }
     public static final class drawable {
         public static final int ic_cancel_transparent_2dp = 0x7f020091;

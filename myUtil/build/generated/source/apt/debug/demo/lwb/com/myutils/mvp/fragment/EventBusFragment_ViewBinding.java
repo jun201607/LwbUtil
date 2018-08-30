@@ -18,8 +18,8 @@ public class EventBusFragment_ViewBinding implements Unbinder {
   public EventBusFragment_ViewBinding(EventBusFragment target, View source) {
     this.target = target;
 
-    target.tvEventBus = Utils.findRequiredViewAsType(source, 2131755317, "field 'tvEventBus'", TextView.class);
-    target.btnEventBus = Utils.findRequiredViewAsType(source, 2131755316, "field 'btnEventBus'", Button.class);
+    target.btnEventBus = Utils.findRequiredViewAsType(source, 2131755329, "field 'btnEventBus'", Button.class);
+    target.tvEventBus = Utils.findRequiredViewAsType(source, 2131755330, "field 'tvEventBus'", TextView.class);
   }
 
   @Override
@@ -29,7 +29,7 @@ public class EventBusFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.tvEventBus = null;
     target.btnEventBus = null;
+    target.tvEventBus = null;
   }
 }

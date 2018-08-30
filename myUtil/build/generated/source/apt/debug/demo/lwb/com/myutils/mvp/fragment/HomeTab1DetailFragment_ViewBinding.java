@@ -17,7 +17,7 @@ public class HomeTab1DetailFragment_ViewBinding implements Unbinder {
   public HomeTab1DetailFragment_ViewBinding(HomeTab1DetailFragment target, View source) {
     this.target = target;
 
-    target.tvUtilsDetail = Utils.findRequiredViewAsType(source, 2131755319, "field 'tvUtilsDetail'", TextView.class);
+    target.tvUtilsDetail = Utils.findRequiredViewAsType(source, 2131755332, "field 'tvUtilsDetail'", TextView.class);
   }
 
   @Override

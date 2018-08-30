@@ -16,28 +16,28 @@ import java.lang.Override;
 public class MessengerFragment_ViewBinding implements Unbinder {
   private MessengerFragment target;
 
-  private View view2131755288;
+  private View view2131755292;
 
-  private View view2131755336;
+  private View view2131755349;
 
   @UiThread
   public MessengerFragment_ViewBinding(final MessengerFragment target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, 2131755288, "field 'llContent' and method 'onViewClicked'");
-    target.llContent = Utils.castView(view, 2131755288, "field 'llContent'", LinearLayout.class);
-    view2131755288 = view;
+    view = Utils.findRequiredView(source, 2131755292, "field 'llContent' and method 'onViewClicked'");
+    target.llContent = Utils.castView(view, 2131755292, "field 'llContent'", LinearLayout.class);
+    view2131755292 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked(p0);
       }
     });
-    target.etPut = Utils.findRequiredViewAsType(source, 2131755337, "field 'etPut'", EditText.class);
-    view = Utils.findRequiredView(source, 2131755336, "field 'btSend' and method 'onViewClicked'");
-    target.btSend = Utils.castView(view, 2131755336, "field 'btSend'", Button.class);
-    view2131755336 = view;
+    target.etPut = Utils.findRequiredViewAsType(source, 2131755350, "field 'etPut'", EditText.class);
+    view = Utils.findRequiredView(source, 2131755349, "field 'btSend' and method 'onViewClicked'");
+    target.btSend = Utils.castView(view, 2131755349, "field 'btSend'", Button.class);
+    view2131755349 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,9 +57,9 @@ public class MessengerFragment_ViewBinding implements Unbinder {
     target.etPut = null;
     target.btSend = null;
 
-    view2131755288.setOnClickListener(null);
-    view2131755288 = null;
-    view2131755336.setOnClickListener(null);
-    view2131755336 = null;
+    view2131755292.setOnClickListener(null);
+    view2131755292 = null;
+    view2131755349.setOnClickListener(null);
+    view2131755349 = null;
   }
 }

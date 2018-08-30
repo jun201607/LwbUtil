@@ -14,16 +14,16 @@ import java.lang.Override;
 public class FloatingActionFragment_ViewBinding implements Unbinder {
   private FloatingActionFragment target;
 
-  private View view2131755318;
+  private View view2131755331;
 
   @UiThread
   public FloatingActionFragment_ViewBinding(final FloatingActionFragment target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, 2131755318, "field 'floatingActionButton' and method 'onViewClicked'");
-    target.floatingActionButton = Utils.castView(view, 2131755318, "field 'floatingActionButton'", FloatingActionButton.class);
-    view2131755318 = view;
+    view = Utils.findRequiredView(source, 2131755331, "field 'floatingActionButton' and method 'onViewClicked'");
+    target.floatingActionButton = Utils.castView(view, 2131755331, "field 'floatingActionButton'", FloatingActionButton.class);
+    view2131755331 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -41,7 +41,7 @@ public class FloatingActionFragment_ViewBinding implements Unbinder {
 
     target.floatingActionButton = null;
 
-    view2131755318.setOnClickListener(null);
-    view2131755318 = null;
+    view2131755331.setOnClickListener(null);
+    view2131755331 = null;
   }
 }
