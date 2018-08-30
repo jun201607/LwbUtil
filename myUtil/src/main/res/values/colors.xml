@@ -33,7 +33,7 @@
     <color name="white_slight">#eeeeee</color>
     <color name="white_alpha">#ddffffff</color>
     <color name="white_alpha_6">#bbdddddd</color>
-
+    <color name="teal">#008080</color><!--水鸭色 -->
     <color name="black_slight">#666666</color>
     <color name="blue">#009ed3</color>
     <color name="blue_btn">#2c6ed2</color>
@@ -93,4 +93,5 @@
     <color name="custom_progress_green_header">#ff99cc00</color>
     <color name="custom_progress_purple_header">#ffaa66cc</color>
     <color name="blue_baby">#89CFF0</color>
+    <color name="green_xiaomi">#52BA97</color>
 </resources>

@@ -16,6 +16,7 @@ import demo.lwb.com.myutils.mvp.fragment.AnimationTextViewFragment;
 import demo.lwb.com.myutils.mvp.fragment.BottomNavigationBarFragment;
 import demo.lwb.com.myutils.mvp.fragment.CameraAlbumFragment;
 import demo.lwb.com.myutils.mvp.fragment.CardViewFragment;
+import demo.lwb.com.myutils.mvp.fragment.Color_SpiderFragment;
 import demo.lwb.com.myutils.mvp.fragment.Common_DialogFragment;
 import demo.lwb.com.myutils.mvp.fragment.DownloadFragment;
 import demo.lwb.com.myutils.mvp.fragment.DrawerLayoutFragment;
@@ -86,6 +87,7 @@ public class FramentManages
 	public final static String Dialog="常用Dialog";
 	public final static String PhotoDevice="获取手机设备信息";
 	public final static String ProgressBar="进度条";
+	public final static String Color_Spider="蛛网等级及颜色选取";
 
 	/**
 	 * 这个在Fragment中不能new出来,只能在Activity中new，每个Activity对应一个List_fragment来管理
@@ -164,6 +166,8 @@ public class FramentManages
 				return new PhotoDeviceFragment();
 			case FramentManages.ProgressBar:
 				return new ProgressBarFragment();
+			case FramentManages.Color_Spider:
+				return new Color_SpiderFragment();
 		}
 	}
 

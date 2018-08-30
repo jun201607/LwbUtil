@@ -131,6 +131,9 @@ public class HomeTab1Presenter extends BasePresenter{
                    case FramentManages.ProgressBar:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.ProgressBar, bundle));
                        break;
+                   case FramentManages.Color_Spider:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.Color_Spider, bundle));
+                       break;
                    default:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.UtilsDetail, bundle));
                        break;
