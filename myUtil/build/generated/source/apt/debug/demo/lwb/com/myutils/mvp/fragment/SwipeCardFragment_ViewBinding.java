@@ -17,7 +17,7 @@ public class SwipeCardFragment_ViewBinding implements Unbinder {
   public SwipeCardFragment_ViewBinding(SwipeCardFragment target, View source) {
     this.target = target;
 
-    target.activityReview = Utils.findRequiredViewAsType(source, 2131755459, "field 'activityReview'", RecyclerView.class);
+    target.activityReview = Utils.findRequiredViewAsType(source, 2131755461, "field 'activityReview'", RecyclerView.class);
   }
 
   @Override

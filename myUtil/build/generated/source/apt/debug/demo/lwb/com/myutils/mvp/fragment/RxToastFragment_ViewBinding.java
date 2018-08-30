@@ -13,10 +13,6 @@ import java.lang.Override;
 public class RxToastFragment_ViewBinding implements Unbinder {
   private RxToastFragment target;
 
-  private View view2131755439;
-
-  private View view2131755440;
-
   private View view2131755441;
 
   private View view2131755442;
@@ -25,6 +21,10 @@ public class RxToastFragment_ViewBinding implements Unbinder {
 
   private View view2131755444;
 
+  private View view2131755445;
+
+  private View view2131755446;
+
   private View view2131755359;
 
   @UiThread
@@ -32,22 +32,6 @@ public class RxToastFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, 2131755439, "method 'onViewClicked'");
-    view2131755439 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onViewClicked(p0);
-      }
-    });
-    view = Utils.findRequiredView(source, 2131755440, "method 'onViewClicked'");
-    view2131755440 = view;
-    view.setOnClickListener(new DebouncingOnClickListener() {
-      @Override
-      public void doClick(View p0) {
-        target.onViewClicked(p0);
-      }
-    });
     view = Utils.findRequiredView(source, 2131755441, "method 'onViewClicked'");
     view2131755441 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
@@ -80,6 +64,22 @@ public class RxToastFragment_ViewBinding implements Unbinder {
         target.onViewClicked(p0);
       }
     });
+    view = Utils.findRequiredView(source, 2131755445, "method 'onViewClicked'");
+    view2131755445 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, 2131755446, "method 'onViewClicked'");
+    view2131755446 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
     view = Utils.findRequiredView(source, 2131755359, "method 'onViewClicked'");
     view2131755359 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
@@ -97,10 +97,6 @@ public class RxToastFragment_ViewBinding implements Unbinder {
     target = null;
 
 
-    view2131755439.setOnClickListener(null);
-    view2131755439 = null;
-    view2131755440.setOnClickListener(null);
-    view2131755440 = null;
     view2131755441.setOnClickListener(null);
     view2131755441 = null;
     view2131755442.setOnClickListener(null);
@@ -109,6 +105,10 @@ public class RxToastFragment_ViewBinding implements Unbinder {
     view2131755443 = null;
     view2131755444.setOnClickListener(null);
     view2131755444 = null;
+    view2131755445.setOnClickListener(null);
+    view2131755445 = null;
+    view2131755446.setOnClickListener(null);
+    view2131755446 = null;
     view2131755359.setOnClickListener(null);
     view2131755359 = null;
   }

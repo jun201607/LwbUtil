@@ -18,8 +18,8 @@ public class SmartRefreshLayoutFragment_ViewBinding implements Unbinder {
   public SmartRefreshLayoutFragment_ViewBinding(SmartRefreshLayoutFragment target, View source) {
     this.target = target;
 
-    target.smartRefreshLayout = Utils.findRequiredViewAsType(source, 2131755458, "field 'smartRefreshLayout'", SmartRefreshLayout.class);
     target.recyclerView = Utils.findRequiredViewAsType(source, 2131755305, "field 'recyclerView'", RecyclerView.class);
+    target.smartRefreshLayout = Utils.findRequiredViewAsType(source, 2131755460, "field 'smartRefreshLayout'", SmartRefreshLayout.class);
   }
 
   @Override
@@ -29,7 +29,7 @@ public class SmartRefreshLayoutFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.smartRefreshLayout = null;
     target.recyclerView = null;
+    target.smartRefreshLayout = null;
   }
 }

@@ -20,9 +20,9 @@ public class AnimationTextViewFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     target.tvMatchButton = Utils.findRequiredViewAsType(source, 2131755297, "field 'tvMatchButton'", MatchButton.class);
-    target.tvMatchTextView = Utils.findRequiredViewAsType(source, 2131755296, "field 'tvMatchTextView'", MatchTextView.class);
-    target.tv_button1 = Utils.findRequiredViewAsType(source, 2131755299, "field 'tv_button1'", Button.class);
     target.tv_button = Utils.findRequiredViewAsType(source, 2131755298, "field 'tv_button'", Button.class);
+    target.tv_button1 = Utils.findRequiredViewAsType(source, 2131755299, "field 'tv_button1'", Button.class);
+    target.tvMatchTextView = Utils.findRequiredViewAsType(source, 2131755296, "field 'tvMatchTextView'", MatchTextView.class);
   }
 
   @Override
@@ -33,8 +33,8 @@ public class AnimationTextViewFragment_ViewBinding implements Unbinder {
     this.target = null;
 
     target.tvMatchButton = null;
-    target.tvMatchTextView = null;
-    target.tv_button1 = null;
     target.tv_button = null;
+    target.tv_button1 = null;
+    target.tvMatchTextView = null;
   }
 }

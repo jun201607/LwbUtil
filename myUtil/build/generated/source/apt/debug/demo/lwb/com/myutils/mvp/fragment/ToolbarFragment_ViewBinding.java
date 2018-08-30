@@ -17,7 +17,7 @@ public class ToolbarFragment_ViewBinding implements Unbinder {
   public ToolbarFragment_ViewBinding(ToolbarFragment target, View source) {
     this.target = target;
 
-    target.toolbar = Utils.findRequiredViewAsType(source, 2131755461, "field 'toolbar'", Toolbar.class);
+    target.toolbar = Utils.findRequiredViewAsType(source, 2131755463, "field 'toolbar'", Toolbar.class);
   }
 
   @Override

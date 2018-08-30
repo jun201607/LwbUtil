@@ -20,10 +20,10 @@ public class RunTextViewFragment_ViewBinding implements Unbinder {
   public RunTextViewFragment_ViewBinding(RunTextViewFragment target, View source) {
     this.target = target;
 
-    target.activityRunTextView = Utils.findRequiredViewAsType(source, 2131755436, "field 'activityRunTextView'", LinearLayout.class);
-    target.tvRuntitle = Utils.findRequiredViewAsType(source, 2131755437, "field 'tvRuntitle'", RxRunTextView.class);
+    target.tvRuntitle = Utils.findRequiredViewAsType(source, 2131755439, "field 'tvRuntitle'", RxRunTextView.class);
+    target.upview1 = Utils.findRequiredViewAsType(source, 2131755440, "field 'upview1'", RxTextViewVerticalMore.class);
+    target.activityRunTextView = Utils.findRequiredViewAsType(source, 2131755438, "field 'activityRunTextView'", LinearLayout.class);
     target.mRxVText = Utils.findRequiredViewAsType(source, 2131755034, "field 'mRxVText'", RxTextViewVertical.class);
-    target.upview1 = Utils.findRequiredViewAsType(source, 2131755438, "field 'upview1'", RxTextViewVerticalMore.class);
   }
 
   @Override
@@ -33,9 +33,9 @@ public class RunTextViewFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.activityRunTextView = null;
     target.tvRuntitle = null;
-    target.mRxVText = null;
     target.upview1 = null;
+    target.activityRunTextView = null;
+    target.mRxVText = null;
   }
 }

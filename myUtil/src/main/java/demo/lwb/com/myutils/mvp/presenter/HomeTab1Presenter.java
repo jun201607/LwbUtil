@@ -140,6 +140,9 @@ public class HomeTab1Presenter extends BasePresenter{
                    case FramentManages.RunTextView:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.RunTextView, bundle));
                        break;
+                   case FramentManages.PULLXML:
+                       mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.PULLXML, bundle));
+                       break;
                    default:
                        mActivity.startActivity(PublicFragmentActivity.createIntent(mActivity, FramentManages.UtilsDetail, bundle));
                        break;

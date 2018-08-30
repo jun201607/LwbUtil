@@ -32,6 +32,7 @@ import demo.lwb.com.myutils.mvp.fragment.MessengerFragment;
 import demo.lwb.com.myutils.mvp.fragment.MyFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_SquareFragment;
 import demo.lwb.com.myutils.mvp.fragment.OpenGl_TriangleFragment;
+import demo.lwb.com.myutils.mvp.fragment.PULLXMLFragment;
 import demo.lwb.com.myutils.mvp.fragment.PhotoDeviceFragment;
 import demo.lwb.com.myutils.mvp.fragment.ProgressBarFragment;
 import demo.lwb.com.myutils.mvp.fragment.QR_CodeFragment;
@@ -92,6 +93,7 @@ public class FramentManages
 	public final static String Color_Spider="蛛网等级及颜色选取";
 	public final static String RxToast="RxToast";
 	public final static String RunTextView="RunTextView";
+	public final static String PULLXML="PULL解析";
 
 	/**
 	 * 这个在Fragment中不能new出来,只能在Activity中new，每个Activity对应一个List_fragment来管理
@@ -176,6 +178,8 @@ public class FramentManages
 				return new RxToastFragment();
 			case FramentManages.RunTextView:
 				return new RunTextViewFragment();
+			case FramentManages.PULLXML:
+				return new PULLXMLFragment();
 		}
 	}
 

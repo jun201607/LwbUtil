@@ -22,6 +22,7 @@ public class AgentWebFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     View view;
+    target.llAgentview = Utils.findRequiredViewAsType(source, 2131755289, "field 'llAgentview'", LinearLayout.class);
     view = Utils.findRequiredView(source, 2131755290, "field 'btnClear' and method 'onViewClicked'");
     target.btnClear = Utils.castView(view, 2131755290, "field 'btnClear'", Button.class);
     view2131755290 = view;
@@ -31,7 +32,6 @@ public class AgentWebFragment_ViewBinding implements Unbinder {
         target.onViewClicked();
       }
     });
-    target.llAgentview = Utils.findRequiredViewAsType(source, 2131755289, "field 'llAgentview'", LinearLayout.class);
   }
 
   @Override
@@ -41,8 +41,8 @@ public class AgentWebFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.btnClear = null;
     target.llAgentview = null;
+    target.btnClear = null;
 
     view2131755290.setOnClickListener(null);
     view2131755290 = null;

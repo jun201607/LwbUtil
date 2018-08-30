@@ -16,24 +16,24 @@ import java.lang.Override;
 public class Web_ViewFragment_ViewBinding implements Unbinder {
   private Web_ViewFragment target;
 
-  private View view2131755462;
+  private View view2131755464;
 
   @UiThread
   public Web_ViewFragment_ViewBinding(final Web_ViewFragment target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, 2131755462, "field 'btnClick' and method 'onViewClicked'");
-    target.btnClick = Utils.castView(view, 2131755462, "field 'btnClick'", Button.class);
-    view2131755462 = view;
+    view = Utils.findRequiredView(source, 2131755464, "field 'btnClick' and method 'onViewClicked'");
+    target.btnClick = Utils.castView(view, 2131755464, "field 'btnClick'", Button.class);
+    view2131755464 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked();
       }
     });
-    target.wvWebview = Utils.findRequiredViewAsType(source, 2131755464, "field 'wvWebview'", WebView.class);
-    target.etWebviewSelset = Utils.findRequiredViewAsType(source, 2131755463, "field 'etWebviewSelset'", EditText.class);
+    target.wvWebview = Utils.findRequiredViewAsType(source, 2131755466, "field 'wvWebview'", WebView.class);
+    target.etWebviewSelset = Utils.findRequiredViewAsType(source, 2131755465, "field 'etWebviewSelset'", EditText.class);
   }
 
   @Override
@@ -47,7 +47,7 @@ public class Web_ViewFragment_ViewBinding implements Unbinder {
     target.wvWebview = null;
     target.etWebviewSelset = null;
 
-    view2131755462.setOnClickListener(null);
-    view2131755462 = null;
+    view2131755464.setOnClickListener(null);
+    view2131755464 = null;
   }
 }

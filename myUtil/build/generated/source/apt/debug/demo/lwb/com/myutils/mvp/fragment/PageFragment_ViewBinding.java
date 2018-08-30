@@ -19,8 +19,8 @@ public class PageFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     target.textView2 = Utils.findRequiredViewAsType(source, 2131755358, "field 'textView2'", TextView.class);
-    target.textView1 = Utils.findRequiredViewAsType(source, 2131755357, "field 'textView1'", TextView.class);
     target.imageView1 = Utils.findRequiredViewAsType(source, 2131755233, "field 'imageView1'", ImageView.class);
+    target.textView1 = Utils.findRequiredViewAsType(source, 2131755357, "field 'textView1'", TextView.class);
   }
 
   @Override
@@ -31,7 +31,7 @@ public class PageFragment_ViewBinding implements Unbinder {
     this.target = null;
 
     target.textView2 = null;
-    target.textView1 = null;
     target.imageView1 = null;
+    target.textView1 = null;
   }
 }

@@ -22,14 +22,14 @@ public class Color_SpiderFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     target.colorPickerView = Utils.findRequiredViewAsType(source, 2131755309, "field 'colorPickerView'", ColorPickerView.class);
-    target.colorPickerViewLevel = Utils.findRequiredViewAsType(source, 2131755312, "field 'colorPickerViewLevel'", ColorPickerView.class);
-    target.vLightnessSlider = Utils.findRequiredViewAsType(source, 2131755311, "field 'vLightnessSlider'", LightnessSlider.class);
-    target.vAlphaSliderLevel = Utils.findRequiredViewAsType(source, 2131755313, "field 'vAlphaSliderLevel'", AlphaSlider.class);
-    target.vAlphaSlider = Utils.findRequiredViewAsType(source, 2131755310, "field 'vAlphaSlider'", AlphaSlider.class);
     target.seekbarSpiderNumber = Utils.findRequiredViewAsType(source, 2131755308, "field 'seekbarSpiderNumber'", SeekBar.class);
-    target.cobwebView = Utils.findRequiredViewAsType(source, 2131755306, "field 'cobwebView'", RxCobwebView.class);
-    target.vLightnessSliderLevel = Utils.findRequiredViewAsType(source, 2131755314, "field 'vLightnessSliderLevel'", LightnessSlider.class);
+    target.vLightnessSlider = Utils.findRequiredViewAsType(source, 2131755311, "field 'vLightnessSlider'", LightnessSlider.class);
     target.seekbarLevel = Utils.findRequiredViewAsType(source, 2131755307, "field 'seekbarLevel'", SeekBar.class);
+    target.vLightnessSliderLevel = Utils.findRequiredViewAsType(source, 2131755314, "field 'vLightnessSliderLevel'", LightnessSlider.class);
+    target.vAlphaSliderLevel = Utils.findRequiredViewAsType(source, 2131755313, "field 'vAlphaSliderLevel'", AlphaSlider.class);
+    target.colorPickerViewLevel = Utils.findRequiredViewAsType(source, 2131755312, "field 'colorPickerViewLevel'", ColorPickerView.class);
+    target.cobwebView = Utils.findRequiredViewAsType(source, 2131755306, "field 'cobwebView'", RxCobwebView.class);
+    target.vAlphaSlider = Utils.findRequiredViewAsType(source, 2131755310, "field 'vAlphaSlider'", AlphaSlider.class);
   }
 
   @Override
@@ -40,13 +40,13 @@ public class Color_SpiderFragment_ViewBinding implements Unbinder {
     this.target = null;
 
     target.colorPickerView = null;
-    target.colorPickerViewLevel = null;
-    target.vLightnessSlider = null;
-    target.vAlphaSliderLevel = null;
-    target.vAlphaSlider = null;
     target.seekbarSpiderNumber = null;
-    target.cobwebView = null;
-    target.vLightnessSliderLevel = null;
+    target.vLightnessSlider = null;
     target.seekbarLevel = null;
+    target.vLightnessSliderLevel = null;
+    target.vAlphaSliderLevel = null;
+    target.colorPickerViewLevel = null;
+    target.cobwebView = null;
+    target.vAlphaSlider = null;
   }
 }

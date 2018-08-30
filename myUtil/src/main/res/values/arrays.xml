@@ -72,5 +72,6 @@
         <item>相机相册</item>
         <item>二维码生成及扫描</item>
         <item>获取手机设备信息</item>
+        <item>PULL解析</item>
     </string-array>
 </resources>

@@ -18,8 +18,8 @@ public class BottomNavigationBarFragment_ViewBinding implements Unbinder {
   public BottomNavigationBarFragment_ViewBinding(BottomNavigationBarFragment target, View source) {
     this.target = target;
 
-    target.bottomNavigationView = Utils.findRequiredViewAsType(source, 2131755301, "field 'bottomNavigationView'", BottomNavigationView.class);
     target.bottomNavigationBar = Utils.findRequiredViewAsType(source, 2131755300, "field 'bottomNavigationBar'", BottomNavigationBar.class);
+    target.bottomNavigationView = Utils.findRequiredViewAsType(source, 2131755301, "field 'bottomNavigationView'", BottomNavigationView.class);
   }
 
   @Override
@@ -29,7 +29,7 @@ public class BottomNavigationBarFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.bottomNavigationView = null;
     target.bottomNavigationBar = null;
+    target.bottomNavigationView = null;
   }
 }

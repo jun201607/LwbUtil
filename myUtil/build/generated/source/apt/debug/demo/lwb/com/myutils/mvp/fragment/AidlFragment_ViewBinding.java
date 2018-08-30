@@ -25,7 +25,6 @@ public class AidlFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     View view;
-    target.etNumber = Utils.findRequiredViewAsType(source, 2131755291, "field 'etNumber'", EditText.class);
     view = Utils.findRequiredView(source, 2131755294, "field 'btnAdd' and method 'onViewClicked'");
     target.btnAdd = Utils.castView(view, 2131755294, "field 'btnAdd'", Button.class);
     view2131755294 = view;
@@ -35,8 +34,6 @@ public class AidlFragment_ViewBinding implements Unbinder {
         target.onViewClicked(p0);
       }
     });
-    target.etBookName = Utils.findRequiredViewAsType(source, 2131755293, "field 'etBookName'", EditText.class);
-    target.llContent = Utils.findRequiredViewAsType(source, 2131755292, "field 'llContent'", LinearLayout.class);
     view = Utils.findRequiredView(source, 2131755295, "field 'llAdd' and method 'onViewClicked'");
     target.llAdd = Utils.castView(view, 2131755295, "field 'llAdd'", LinearLayout.class);
     view2131755295 = view;
@@ -46,6 +43,9 @@ public class AidlFragment_ViewBinding implements Unbinder {
         target.onViewClicked(p0);
       }
     });
+    target.etNumber = Utils.findRequiredViewAsType(source, 2131755291, "field 'etNumber'", EditText.class);
+    target.etBookName = Utils.findRequiredViewAsType(source, 2131755293, "field 'etBookName'", EditText.class);
+    target.llContent = Utils.findRequiredViewAsType(source, 2131755292, "field 'llContent'", LinearLayout.class);
   }
 
   @Override
@@ -55,11 +55,11 @@ public class AidlFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.etNumber = null;
     target.btnAdd = null;
+    target.llAdd = null;
+    target.etNumber = null;
     target.etBookName = null;
     target.llContent = null;
-    target.llAdd = null;
 
     view2131755294.setOnClickListener(null);
     view2131755294 = null;

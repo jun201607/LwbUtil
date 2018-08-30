@@ -22,7 +22,6 @@ public class DrawerLayoutFragment_ViewBinding implements Unbinder {
     this.target = target;
 
     View view;
-    target.drawerLayout = Utils.findRequiredViewAsType(source, 2131755328, "field 'drawerLayout'", DrawerLayout.class);
     view = Utils.findRequiredView(source, 2131755325, "field 'btnStart' and method 'onViewClicked'");
     target.btnStart = Utils.castView(view, 2131755325, "field 'btnStart'", Button.class);
     view2131755325 = view;
@@ -32,6 +31,7 @@ public class DrawerLayoutFragment_ViewBinding implements Unbinder {
         target.onViewClicked();
       }
     });
+    target.drawerLayout = Utils.findRequiredViewAsType(source, 2131755328, "field 'drawerLayout'", DrawerLayout.class);
   }
 
   @Override
@@ -41,8 +41,8 @@ public class DrawerLayoutFragment_ViewBinding implements Unbinder {
     if (target == null) throw new IllegalStateException("Bindings already cleared.");
     this.target = null;
 
-    target.drawerLayout = null;
     target.btnStart = null;
+    target.drawerLayout = null;
 
     view2131755325.setOnClickListener(null);
     view2131755325 = null;
